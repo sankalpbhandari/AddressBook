@@ -53,20 +53,39 @@ class DBHandler:
 
     def search(self, table_name):
         try:
-            search_data = "SELECT * from %s" % table_name
+            search_data = "SELECT * from %s limit 2" % table_name
             print("Searching data", search_data)
             self.cursor.execute(search_data)
+            print(self.cursor.description)
             for data in self.cursor:
                 print(data)
         except Exception as e:
+            print(e)
+
+    def make_table(self, contact_id):
+        try:
+            table_data = dict()
+            for table in ["CONTACT", "ADDRESS", "PHONE", "DATE"]:
+                query = "select * from %s where ContactID = %s" % (table,
+                                                                   contact_id)
+                self.cursor.execute(query)
+                data_l = list()
+                for data in self.cursor:
+                    data_l.append(data)
+                if len(data_l) == 1:
+                    table_data.update({table: data_l[0]})
+                else:
+                    table_data.update({table: data_l})
+            return table_data
+        except Exception as e:
+            print("Here")
             print(e)
 
 
 if __name__ == "__main__":
     a = DBHandler()
     a.create_connect()
-    a.insert("CONTACT", '("Sankalp", "Sanjay", "Bhandari")')
-    a.search("CONTACT")
-    a.delete("CONTACT", a.contactID)
+    for i in range(2, 1000):
+        print(a.make_table(i))
     a.close_connect()
     exit(0)

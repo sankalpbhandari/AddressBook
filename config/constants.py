@@ -10,7 +10,7 @@ mapping = {"CONTACT": "ContactID", "ADDRESS": "AddressID", "PHONE": "PhoneID",
            "DATE": "DateID"}
 
 # The attributes of the table
-CONTACT_VALUES = '(Fname,Lname,Lname)'
-ADDRESS_VALUES = '(AddressID,ContactID,Address_type,Address,City,State,Zip)'
-DATE_VALUES = '(DateID,ContactID,DateType,Date)'
-PHONE_VALUES = '(PhoneID,PhoneType,ContactID,AreaCode,Number)'
+CONTACT_VALUES = '(Fname,Mname,Lname)'
+ADDRESS_VALUES = '(ContactID,Address_type,Address,City,State,Zip)'
+DATE_VALUES = '(ContactID,DateType,Date)'
+PHONE_VALUES = '(PhoneType,ContactID,AreaCode,Number)'
