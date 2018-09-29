@@ -1,0 +1,1310 @@
+"AddressID","ContactID","Address_type","Address","City","State","Zip"
+1,271,"Work","01 Delaware Parkway","Addison","Texas",75001
+2,773,"Work","06050 Sunbrook Park","Plano","Texas",75001
+3,706,"Work","06754 Meadow Vale Center","Dallas","Texas",75001
+4,383,"Work","06 Anniversary Crossing","Addison","Texas",75001
+5,537,"Work","0718 Oneill Court","Dallas","Texas",75001
+6,137,"Work","077 Ilene Terrace","Plano","Texas",75001
+7,608,"Work","0780 Spohn Hill","Plano","Texas",75001
+8,150,"Work","0 Blue Bill Park Pass","Allen","Texas",75001
+9,478,"Work","0 Lakewood Plaza","Richardson","Texas",75001
+10,192,"Work","0 Porter Place","Dallas","Texas",75001
+11,616,"Work","0 Valley Edge Alley","Addison","Texas",75001
+12,705,"Work","1322 Fair Oaks Park","Allen","Texas",75001
+13,557,"Work","150 Park Meadow Drive","Plano","Texas",75001
+14,447,"Work","18 Dexter Point","Dallas","Texas",75001
+15,382,"Work","1 Golf Circle","Plano","Texas",75001
+16,520,"Work","1 Lotheville Parkway","Dallas","Texas",75001
+17,258,"Work","1 Paget Trail","Addison","Texas",75001
+18,284,"Home","2194 Messerschmidt Lane","Richardson","Texas",75001
+19,547,"Work","250 Glacier Hill Circle","Dallas","Texas",75001
+20,143,"Work","255 Lukken Court","Richardson","Texas",75001
+21,691,"Work","266 Jana Plaza","Plano","Texas",75001
+22,371,"Work","27520 Coleman Junction","Addison","Texas",75001
+23,25,"Work","2 Lillian Drive","Addison","Texas",75001
+24,529,"Work","309 Dorton Street","Addison","Texas",75001
+25,107,"Work","3105 Autumn Leaf Court","Plano","Texas",75001
+26,925,"Work","350 Crowley Lane","Allen","Texas",75001
+27,86,"Work","351 Shelley Court","Richardson","Texas",75001
+28,17,"Work","3522 Butternut Place","Plano","Texas",75001
+29,737,"Work","35366 Transport Terrace","Addison","Texas",75001
+30,179,"Home","35825 Maple Alley","Richardson","Texas",75001
+31,868,"Work","35864 Village Green Crossing","Richardson","Texas",75001
+32,733,"Work","35 Stang Lane","Richardson","Texas",75001
+33,586,"Work","360 Miller Crossing","Richardson","Texas",75001
+34,651,"Work","39 Straubel Circle","Plano","Texas",75001
+35,519,"Work","3 Shopko Avenue","Addison","Texas",75001
+36,327,"Work","409 Mayfield Trail","Allen","Texas",75001
+37,323,"Work","449 Stang Court","Richardson","Texas",75001
+38,968,"Work","48011 Karstens Circle","Addison","Texas",75001
+39,172,"Home","48833 Atwood Alley","Addison","Texas",75001
+40,929,"Work","4 Ruskin Alley","Addison","Texas",75001
+41,899,"Work","5154 Crowley Drive","Richardson","Texas",75001
+42,425,"Work","532 Truax Drive","Plano","Texas",75001
+43,974,"Work","553 Sycamore Way","Dallas","Texas",75001
+44,983,"Home","5 Coleman Lane","Dallas","Texas",75001
+45,363,"Work","5 Schlimgen Junction","Plano","Texas",75001
+46,828,"Work","615 Lunder Hill","Richardson","Texas",75001
+47,144,"Work","62089 Transport Plaza","Plano","Texas",75001
+48,466,"Work","64077 Stuart Street","Allen","Texas",75001
+49,58,"Work","65588 Claremont Plaza","Plano","Texas",75001
+50,636,"Work","6565 Delaware Road","Richardson","Texas",75001
+51,213,"Work","66 Valley Edge Terrace","Richardson","Texas",75001
+52,841,"Work","6880 Havey Park","Plano","Texas",75001
+53,366,"Work","68 Crownhardt Drive","Addison","Texas",75001
+54,701,"Work","6941 Superior Hill","Plano","Texas",75001
+55,414,"Home","696 Esch Way","Addison","Texas",75001
+56,535,"Home","6 Carpenter Pass","Allen","Texas",75001
+57,853,"Work","6 Dottie Crossing","Plano","Texas",75001
+58,375,"Work","6 Sauthoff Park","Dallas","Texas",75001
+59,949,"Work","71460 Meadow Valley Point","Plano","Texas",75001
+60,358,"Work","7481 Orin Crossing","Dallas","Texas",75001
+61,847,"Work","7558 Pawling Way","Allen","Texas",75001
+62,423,"Home","77 Dakota Alley","Allen","Texas",75001
+63,119,"Work","80574 Eliot Road","Plano","Texas",75001
+64,844,"Work","82863 Superior Circle","Dallas","Texas",75001
+65,854,"Home","8314 Dennis Junction","Plano","Texas",75001
+66,141,"Work","83 Namekagon Lane","Dallas","Texas",75001
+67,254,"Work","8412 Anhalt Road","Richardson","Texas",75001
+68,369,"Work","8437 Debra Street","Richardson","Texas",75001
+69,948,"Work","8615 Emmet Parkway","Allen","Texas",75001
+70,988,"Work","86 Meadow Vale Park","Plano","Texas",75001
+71,839,"Work","8875 Porter Drive","Dallas","Texas",75001
+72,976,"Work","89641 Kings Place","Addison","Texas",75001
+73,443,"Work","89656 Gateway Junction","Richardson","Texas",75001
+74,977,"Work","8 Hoepker Lane","Plano","Texas",75001
+75,774,"Work","8 Nova Circle","Dallas","Texas",75001
+76,500,"Work","9274 Vermont Circle","Addison","Texas",75001
+77,772,"Work","93380 Northfield Hill","Addison","Texas",75001
+78,796,"Work","96 Calypso Lane","Dallas","Texas",75001
+79,42,"Work","97544 Arizona Crossing","Allen","Texas",75001
+80,424,"Work","9 Hanover Park","Addison","Texas",75001
+81,918,"Work","9 Loftsgordon Drive","Richardson","Texas",75001
+82,384,"Work","9 Mifflin Point","Richardson","Texas",75001
+83,85,"Work","005 Derek Terrace","Richardson","Texas",75002
+84,233,"Work","049 Lerdahl Avenue","Plano","Texas",75002
+85,253,"Work","0615 Hooker Way","Richardson","Texas",75002
+86,903,"Work","09 Dexter Center","Addison","Texas",75002
+87,642,"Work","09 Fairfield Way","Richardson","Texas",75002
+88,562,"Work","10495 Melby Point","Allen","Texas",75002
+89,52,"Home","1330 Thackeray Junction","Plano","Texas",75002
+90,591,"Work","1470 Fieldstone Point","Addison","Texas",75002
+91,807,"Work","1525 Duke Avenue","Richardson","Texas",75002
+92,846,"Work","1595 Moland Center","Addison","Texas",75002
+93,644,"Work","19679 Farmco Pass","Plano","Texas",75002
+94,115,"Work","1 Loomis Lane","Richardson","Texas",75002
+95,68,"Work","23469 Annamark Center","Richardson","Texas",75002
+96,699,"Work","26 Banding Trail","Allen","Texas",75002
+97,834,"Work","2769 Ramsey Junction","Allen","Texas",75002
+98,755,"Work","28986 Bunker Hill Plaza","Allen","Texas",75002
+99,241,"Work","2975 Clemons Junction","Allen","Texas",75002
+100,92,"Work","2 Dennis Alley","Dallas","Texas",75002
+101,748,"Work","2 Rusk Crossing","Plano","Texas",75002
+102,423,"Work","322 Declaration Trail","Dallas","Texas",75002
+103,292,"Work","323 Westridge Alley","Richardson","Texas",75002
+104,422,"Work","335 Fremont Park","Addison","Texas",75002
+105,399,"Work","33845 Drewry Terrace","Plano","Texas",75002
+106,698,"Work","3847 Morningstar Court","Richardson","Texas",75002
+107,47,"Work","394 Mayfield Drive","Plano","Texas",75002
+108,116,"Work","396 3rd Alley","Allen","Texas",75002
+109,583,"Work","3 Upham Pass","Addison","Texas",75002
+110,664,"Work","3 Waubesa Alley","Allen","Texas",75002
+111,188,"Work","4440 Spenser Pass","Allen","Texas",75002
+112,917,"Work","4 4th Circle","Addison","Texas",75002
+113,780,"Work","489 Heath Street","Allen","Texas",75002
+114,808,"Work","4 Golden Leaf Park","Dallas","Texas",75002
+115,790,"Work","4 Service Park","Plano","Texas",75002
+116,20,"Work","51819 Donald Trail","Richardson","Texas",75002
+117,479,"Home","51 High Crossing Street","Allen","Texas",75002
+118,273,"Work","51 Swallow Circle","Addison","Texas",75002
+119,714,"Work","55290 Meadow Vale Lane","Allen","Texas",75002
+120,370,"Work","56443 Merchant Court","Dallas","Texas",75002
+121,793,"Work","56 Evergreen Circle","Richardson","Texas",75002
+122,267,"Work","61216 Tony Lane","Allen","Texas",75002
+123,395,"Work","634 Schiller Hill","Plano","Texas",75002
+124,823,"Work","639 Talisman Road","Addison","Texas",75002
+125,594,"Work","6446 7th Point","Addison","Texas",75002
+126,138,"Work","6 6th Pass","Richardson","Texas",75002
+127,876,"Work","67232 Brickson Park Street","Richardson","Texas",75002
+128,465,"Work","694 High Crossing Drive","Richardson","Texas",75002
+129,126,"Work","702 Maple Wood Circle","Allen","Texas",75002
+130,65,"Home","72772 Northfield Way","Dallas","Texas",75002
+131,176,"Work","73397 Blaine Trail","Dallas","Texas",75002
+132,101,"Work","73814 Gerald Park","Plano","Texas",75002
+133,111,"Work","738 Commercial Road","Addison","Texas",75002
+134,158,"Work","7390 Brickson Park Junction","Dallas","Texas",75002
+135,909,"Work","7539 Meadow Valley Junction","Dallas","Texas",75002
+136,402,"Work","764 Tennyson Center","Allen","Texas",75002
+137,313,"Work","7726 Anderson Park","Plano","Texas",75002
+138,912,"Work","78762 Oak Valley Terrace","Richardson","Texas",75002
+139,417,"Work","816 Riverside Alley","Addison","Texas",75002
+140,315,"Work","8191 Holmberg Avenue","Allen","Texas",75002
+141,560,"Work","83189 Tony Road","Addison","Texas",75002
+142,300,"Work","8357 Lakewood Point","Plano","Texas",75002
+143,800,"Work","83 Prairieview Circle","Allen","Texas",75002
+144,216,"Work","858 Red Cloud Trail","Dallas","Texas",75002
+145,683,"Work","8642 Havey Plaza","Plano","Texas",75002
+146,645,"Work","8 Columbus Hill","Dallas","Texas",75002
+147,533,"Work","8 Randy Court","Addison","Texas",75002
+148,528,"Work","8 Summer Ridge Drive","Plano","Texas",75002
+149,697,"Work","91786 Rockefeller Drive","Addison","Texas",75002
+150,392,"Work","91 Katie Lane","Dallas","Texas",75002
+151,355,"Work","93 Ruskin Hill","Richardson","Texas",75002
+152,580,"Work","942 Superior Terrace","Allen","Texas",75002
+153,842,"Work","9797 Summit Terrace","Plano","Texas",75002
+154,43,"Home","9 Orin Alley","Richardson","Texas",75002
+155,165,"Work","00464 Kenwood Circle","Richardson","Texas",75003
+156,891,"Work","036 Welch Pass","Plano","Texas",75003
+157,467,"Work","0603 Debs Terrace","Richardson","Texas",75003
+158,848,"Work","06 Vera Street","Allen","Texas",75003
+159,410,"Work","0 7th Avenue","Plano","Texas",75003
+160,62,"Work","095 Hagan Center","Plano","Texas",75003
+161,385,"Home","09 Farragut Way","Dallas","Texas",75003
+162,927,"Work","09 Myrtle Street","Addison","Texas",75003
+163,946,"Work","0 Coolidge Street","Allen","Texas",75003
+164,309,"Work","0 Del Sol Avenue","Addison","Texas",75003
+165,837,"Work","10 Harbort Plaza","Allen","Texas",75003
+166,394,"Home","11738 Harbort Road","Allen","Texas",75003
+167,110,"Home","1409 Loftsgordon Alley","Plano","Texas",75003
+168,795,"Work","1783 Glendale Alley","Dallas","Texas",75003
+169,870,"Work","18664 Ridgeway Court","Addison","Texas",75003
+170,752,"Work","1 Dixon Circle","Richardson","Texas",75003
+171,394,"Work","20 Barby Parkway","Addison","Texas",75003
+172,357,"Work","20 Florence Road","Addison","Texas",75003
+173,379,"Work","22 Burrows Circle","Plano","Texas",75003
+174,80,"Work","23 Debra Road","Plano","Texas",75003
+175,156,"Home","272 Farmco Lane","Addison","Texas",75003
+176,179,"Work","2930 Reindahl Pass","Dallas","Texas",75003
+177,716,"Work","2 Meadow Vale Avenue","Addison","Texas",75003
+178,412,"Home","2 Ridgeway Drive","Allen","Texas",75003
+179,426,"Work","31345 Manley Crossing","Allen","Texas",75003
+180,51,"Work","33 Melby Park","Allen","Texas",75003
+181,775,"Work","35503 Melvin Parkway","Dallas","Texas",75003
+182,66,"Work","3682 American Road","Richardson","Texas",75003
+183,473,"Home","4106 Dapin Court","Dallas","Texas",75003
+184,400,"Home","413 Grasskamp Terrace","Richardson","Texas",75003
+185,207,"Work","4155 Holmberg Avenue","Plano","Texas",75003
+186,230,"Home","44995 Johnson Court","Allen","Texas",75003
+187,70,"Work","455 Westend Point","Dallas","Texas",75003
+188,852,"Work","46 Tony Terrace","Allen","Texas",75003
+189,35,"Work","5031 Service Trail","Dallas","Texas",75003
+190,99,"Work","5445 Buhler Parkway","Allen","Texas",75003
+191,243,"Work","58664 Florence Center","Addison","Texas",75003
+192,286,"Work","59935 High Crossing Park","Richardson","Texas",75003
+193,992,"Home","5 Blue Bill Park Street","Plano","Texas",75003
+194,329,"Work","5 Golf Avenue","Dallas","Texas",75003
+195,40,"Work","66986 Vidon Trail","Richardson","Texas",75003
+196,518,"Work","69908 School Way","Allen","Texas",75003
+197,954,"Work","6 Gale Lane","Addison","Texas",75003
+198,878,"Home","6 Golf Parkway","Richardson","Texas",75003
+199,900,"Work","719 Onsgard Court","Allen","Texas",75003
+200,803,"Work","7323 Monica Circle","Richardson","Texas",75003
+201,957,"Work","7386 Scott Drive","Dallas","Texas",75003
+202,692,"Work","75536 Sauthoff Pass","Addison","Texas",75003
+203,516,"Work","7862 Stephen Park","Addison","Texas",75003
+204,506,"Work","80047 Delladonna Pass","Richardson","Texas",75003
+205,84,"Work","82238 Ludington Park","Addison","Texas",75003
+206,702,"Work","83998 Donald Avenue","Addison","Texas",75003
+207,728,"Home","868 Farmco Center","Plano","Texas",75003
+208,388,"Work","88 Mifflin Hill","Dallas","Texas",75003
+209,831,"Work","8 Nevada Point","Dallas","Texas",75003
+210,1,"Work","90103 Glacier Hill Terrace","Plano","Texas",75003
+211,747,"Work","9130 Maple Crossing","Allen","Texas",75003
+212,632,"Work","926 Vera Drive","Plano","Texas",75003
+213,106,"Work","9528 Loftsgordon Junction","Allen","Texas",75003
+214,601,"Home","9 Hoepker Parkway","Plano","Texas",75003
+215,362,"Work","9 Ramsey Point","Dallas","Texas",75003
+216,678,"Work","00 Butterfield Drive","Richardson","Texas",75004
+217,217,"Work","019 Utah Circle","Addison","Texas",75004
+218,884,"Work","10 Delladonna Junction","Plano","Texas",75004
+219,717,"Home","13053 American Drive","Dallas","Texas",75004
+220,604,"Work","158 Lunder Park","Allen","Texas",75004
+221,883,"Work","18730 Calypso Place","Dallas","Texas",75004
+222,450,"Home","18975 Harbort Hill","Dallas","Texas",75004
+223,776,"Work","19 Heffernan Terrace","Dallas","Texas",75004
+224,742,"Work","1 Lillian Center","Richardson","Texas",75004
+225,894,"Work","2076 Vernon Junction","Plano","Texas",75004
+226,682,"Work","20891 Vernon Plaza","Dallas","Texas",75004
+227,650,"Work","21491 Spaight Lane","Allen","Texas",75004
+228,820,"Work","2584 Milwaukee Center","Dallas","Texas",75004
+229,962,"Work","2612 Duke Avenue","Plano","Texas",75004
+230,434,"Work","2683 Comanche Court","Allen","Texas",75004
+231,654,"Work","26 Hanson Drive","Richardson","Texas",75004
+232,596,"Work","2787 Gulseth Way","Addison","Texas",75004
+233,161,"Work","2 Prentice Park","Addison","Texas",75004
+234,549,"Work","300 Crest Line Point","Richardson","Texas",75004
+235,930,"Work","33594 Debs Road","Dallas","Texas",75004
+236,788,"Work","3434 Reindahl Road","Addison","Texas",75004
+237,5,"Work","35836 Banding Way","Richardson","Texas",75004
+238,910,"Work","37 Sloan Plaza","Richardson","Texas",75004
+239,296,"Work","4137 Almo Street","Richardson","Texas",75004
+240,838,"Work","417 Sachs Point","Dallas","Texas",75004
+241,91,"Home","421 8th Drive","Addison","Texas",75004
+242,625,"Work","4889 Scott Junction","Richardson","Texas",75004
+243,239,"Work","49001 Superior Place","Addison","Texas",75004
+244,916,"Work","49032 7th Drive","Dallas","Texas",75004
+245,23,"Work","4 Emmet Junction","Plano","Texas",75004
+246,886,"Work","5208 Tennyson Alley","Richardson","Texas",75004
+247,653,"Work","53 Eastlawn Park","Plano","Texas",75004
+248,869,"Work","5458 Starling Avenue","Dallas","Texas",75004
+249,181,"Work","5540 Luster Center","Allen","Texas",75004
+250,568,"Work","55 Vidon Drive","Allen","Texas",75004
+251,147,"Work","563 Kedzie Court","Addison","Texas",75004
+252,351,"Work","595 Mesta Center","Richardson","Texas",75004
+253,944,"Work","5 Mallard Lane","Addison","Texas",75004
+254,453,"Home","60302 Longview Way","Richardson","Texas",75004
+255,546,"Work","6123 Lighthouse Bay Point","Richardson","Texas",75004
+256,227,"Work","644 Towne Junction","Dallas","Texas",75004
+257,379,"Home","6694 Columbus Plaza","Richardson","Texas",75004
+258,156,"Work","67 Evergreen Way","Richardson","Texas",75004
+259,387,"Work","6 Canary Center","Addison","Texas",75004
+260,26,"Work","6 Michigan Pass","Dallas","Texas",75004
+261,611,"Work","7 Mockingbird Pass","Addison","Texas",75004
+262,481,"Work","7 Starling Lane","Plano","Texas",75004
+263,49,"Work","7 Talisman Alley","Allen","Texas",75004
+264,469,"Work","83 Anderson Parkway","Allen","Texas",75004
+265,131,"Home","84 Sommers Plaza","Addison","Texas",75004
+266,340,"Work","8504 Sunfield Hill","Richardson","Texas",75004
+267,29,"Home","85701 Basil Road","Allen","Texas",75004
+268,109,"Work","876 Washington Terrace","Plano","Texas",75004
+269,794,"Work","8 Alpine Lane","Dallas","Texas",75004
+270,59,"Work","8 Kings Crossing","Allen","Texas",75004
+271,41,"Work","8 Luster Circle","Addison","Texas",75004
+272,331,"Work","8 Mockingbird Place","Addison","Texas",75004
+273,647,"Work","9142 Russell Trail","Richardson","Texas",75004
+274,356,"Work","9359 Independence Road","Addison","Texas",75004
+275,709,"Work","93 Moose Alley","Richardson","Texas",75004
+276,381,"Work","9813 Brickson Park Pass","Addison","Texas",75004
+277,637,"Work","99883 Crescent Oaks Court","Richardson","Texas",75004
+278,73,"Work","9 Mandrake Place","Allen","Texas",75004
+279,814,"Work","02 Sunnyside Junction","Richardson","Texas",75005
+280,553,"Work","03646 Katie Terrace","Plano","Texas",75005
+281,679,"Work","03953 Bobwhite Plaza","Plano","Texas",75005
+282,630,"Work","0557 Stephen Road","Plano","Texas",75005
+283,123,"Work","07 Butternut Avenue","Allen","Texas",75005
+284,328,"Home","087 Duke Pass","Dallas","Texas",75005
+285,46,"Work","08 Everett Crossing","Plano","Texas",75005
+286,771,"Work","096 Claremont Circle","Dallas","Texas",75005
+287,990,"Work","0 Lillian Alley","Addison","Texas",75005
+288,493,"Work","100 Forest Dale Court","Plano","Texas",75005
+289,252,"Work","12969 Lighthouse Bay Lane","Addison","Texas",75005
+290,634,"Work","13 Golf View Point","Addison","Texas",75005
+291,804,"Work","21529 Everett Court","Addison","Texas",75005
+292,262,"Work","21 Summit Terrace","Addison","Texas",75005
+293,282,"Work","254 Judy Parkway","Richardson","Texas",75005
+294,687,"Work","2576 Kennedy Road","Allen","Texas",75005
+295,105,"Work","29479 Porter Point","Dallas","Texas",75005
+296,726,"Work","2 Hollow Ridge Point","Allen","Texas",75005
+297,290,"Work","318 Grover Hill","Dallas","Texas",75005
+298,908,"Work","320 Rutledge Trail","Addison","Texas",75005
+299,229,"Work","3387 Old Shore Pass","Richardson","Texas",75005
+300,584,"Work","34 Pennsylvania Alley","Addison","Texas",75005
+301,8,"Work","363 Truax Trail","Addison","Texas",75005
+302,457,"Home","370 Longview Hill","Allen","Texas",75005
+303,22,"Work","3715 Muir Park","Dallas","Texas",75005
+304,146,"Home","3785 Heath Pass","Dallas","Texas",75005
+305,686,"Work","38283 Kennedy Court","Richardson","Texas",75005
+306,310,"Work","39649 Esker Center","Dallas","Texas",75005
+307,455,"Home","3 Onsgard Plaza","Addison","Texas",75005
+308,867,"Work","41 Marquette Pass","Richardson","Texas",75005
+309,652,"Work","43 Bultman Lane","Plano","Texas",75005
+310,674,"Work","45 Pierstorff Parkway","Richardson","Texas",75005
+311,198,"Work","46162 Fuller Drive","Dallas","Texas",75005
+312,127,"Home","4 Heath Parkway","Addison","Texas",75005
+313,857,"Work","4 Mccormick Court","Addison","Texas",75005
+314,275,"Work","5212 Brown Way","Plano","Texas",75005
+315,333,"Work","5289 Jay Park","Plano","Texas",75005
+316,453,"Work","539 Canary Point","Plano","Texas",75005
+317,403,"Work","557 Daystar Parkway","Allen","Texas",75005
+318,460,"Work","57092 Clarendon Lane","Allen","Texas",75005
+319,304,"Work","5917 Upham Point","Addison","Texas",75005
+320,120,"Work","5996 Fairview Trail","Richardson","Texas",75005
+321,308,"Work","626 Lakewood Gardens Circle","Plano","Texas",75005
+322,606,"Work","659 Continental Plaza","Dallas","Texas",75005
+323,998,"Work","67720 Myrtle Parkway","Dallas","Texas",75005
+324,429,"Work","6 8th Place","Addison","Texas",75005
+325,769,"Work","69 Clove Drive","Addison","Texas",75005
+326,992,"Work","72701 Morningstar Way","Dallas","Texas",75005
+327,456,"Work","73795 Red Cloud Crossing","Richardson","Texas",75005
+328,223,"Work","75 Evergreen Road","Addison","Texas",75005
+329,484,"Home","78 Caliangt Way","Plano","Texas",75005
+330,349,"Work","7906 Dovetail Hill","Richardson","Texas",75005
+331,725,"Work","8180 Brickson Park Hill","Richardson","Texas",75005
+332,751,"Work","81 Dunning Point","Allen","Texas",75005
+333,757,"Home","8332 Larry Center","Addison","Texas",75005
+334,94,"Work","852 Burning Wood Pass","Addison","Texas",75005
+335,56,"Work","853 Mayfield Place","Allen","Texas",75005
+336,915,"Work","866 Heffernan Point","Addison","Texas",75005
+337,39,"Work","868 Continental Road","Plano","Texas",75005
+338,948,"Home","88714 Hayes Junction","Addison","Texas",75005
+339,110,"Work","92 Mcbride Road","Plano","Texas",75005
+340,587,"Work","938 Sherman Parkway","Addison","Texas",75005
+341,763,"Work","93 Division Circle","Richardson","Texas",75005
+342,746,"Work","9410 Northridge Crossing","Richardson","Texas",75005
+343,251,"Work","9 Declaration Street","Richardson","Texas",75005
+344,785,"Work","0031 Briar Crest Alley","Plano","Texas",75006
+345,255,"Work","00752 Carey Avenue","Addison","Texas",75006
+346,435,"Work","049 Waywood Crossing","Dallas","Texas",75006
+347,995,"Home","0648 Lakewood Street","Plano","Texas",75006
+348,415,"Work","0792 Reindahl Terrace","Plano","Texas",75006
+349,446,"Work","0830 Kingsford Center","Richardson","Texas",75006
+350,749,"Work","0 Red Cloud Drive","Richardson","Texas",75006
+351,906,"Work","11901 Mitchell Crossing","Dallas","Texas",75006
+352,269,"Home","1222 Pond Drive","Richardson","Texas",75006
+353,82,"Home","12 Butternut Terrace","Richardson","Texas",75006
+354,471,"Work","17 Blaine Court","Allen","Texas",75006
+355,266,"Work","1 Drewry Alley","Allen","Texas",75006
+356,498,"Work","2151 Del Mar Junction","Dallas","Texas",75006
+357,919,"Work","26242 Upham Circle","Plano","Texas",75006
+358,646,"Work","29421 Ludington Road","Addison","Texas",75006
+359,985,"Work","2 Elgar Place","Plano","Texas",75006
+360,386,"Work","307 Anhalt Point","Addison","Texas",75006
+361,374,"Work","3233 Southridge Parkway","Allen","Texas",75006
+362,2,"Work","37 Sommers Hill","Addison","Texas",75006
+363,994,"Work","38 Shoshone Terrace","Dallas","Texas",75006
+364,324,"Work","3 Harbort Pass","Dallas","Texas",75006
+365,279,"Work","3 Melvin Parkway","Allen","Texas",75006
+366,50,"Work","3 Redwing Terrace","Dallas","Texas",75006
+367,164,"Work","435 Dwight Pass","Plano","Texas",75006
+368,167,"Work","4368 Montana Parkway","Richardson","Texas",75006
+369,570,"Work","446 Nova Road","Richardson","Texas",75006
+370,628,"Work","4865 Southridge Park","Allen","Texas",75006
+371,61,"Work","4 Saint Paul Junction","Dallas","Texas",75006
+372,162,"Work","50 John Wall Street","Allen","Texas",75006
+373,855,"Work","5146 Grayhawk Junction","Allen","Texas",75006
+374,573,"Work","51 Welch Road","Plano","Texas",75006
+375,958,"Work","5204 Messerschmidt Avenue","Plano","Texas",75006
+376,442,"Work","56 Carpenter Plaza","Dallas","Texas",75006
+377,212,"Work","59544 Tomscot Pass","Dallas","Texas",75006
+378,782,"Work","5 Eastlawn Terrace","Richardson","Texas",75006
+379,961,"Home","5 Mockingbird Point","Allen","Texas",75006
+380,572,"Work","66 Paget Point","Addison","Texas",75006
+381,201,"Work","7321 Declaration Alley","Addison","Texas",75006
+382,605,"Work","73510 Forest Trail","Allen","Texas",75006
+383,509,"Work","74991 Prairieview Alley","Richardson","Texas",75006
+384,89,"Work","7807 Dakota Pass","Addison","Texas",75006
+385,364,"Work","78 Anhalt Way","Dallas","Texas",75006
+386,551,"Home","7 Comanche Plaza","Richardson","Texas",75006
+387,444,"Work","80 High Crossing Pass","Dallas","Texas",75006
+388,244,"Work","8 Little Fleur Road","Richardson","Texas",75006
+389,896,"Work","933 Lakewood Terrace","Addison","Texas",75006
+390,859,"Work","9520 Schiller Trail","Dallas","Texas",75006
+391,576,"Work","97573 Westport Street","Dallas","Texas",75006
+392,136,"Work","977 2nd Road","Addison","Texas",75006
+393,798,"Work","9925 Algoma Pass","Allen","Texas",75006
+394,887,"Work","9 Kensington Circle","Addison","Texas",75006
+395,341,"Work","9 Truax Court","Plano","Texas",75006
+396,715,"Work","01053 Pond Terrace","Plano","Texas",75007
+397,738,"Work","013 Northview Court","Addison","Texas",75007
+398,412,"Work","03 Dorton Point","Addison","Texas",75007
+399,727,"Work","059 Twin Pines Plaza","Dallas","Texas",75007
+400,173,"Work","06606 Cordelia Way","Plano","Texas",75007
+401,818,"Home","1159 Harbort Center","Plano","Texas",75007
+402,812,"Work","118 Magdeline Drive","Richardson","Texas",75007
+403,185,"Work","1202 Autumn Leaf Street","Addison","Texas",75007
+404,348,"Work","1678 Kings Court","Dallas","Texas",75007
+405,9,"Work","17 Clyde Gallagher Alley","Richardson","Texas",75007
+406,128,"Home","202 Pankratz Terrace","Addison","Texas",75007
+407,27,"Work","2408 Riverside Parkway","Plano","Texas",75007
+408,830,"Work","24624 Dovetail Crossing","Addison","Texas",75007
+409,210,"Work","26 Cardinal Point","Dallas","Texas",75007
+410,922,"Work","2817 Lukken Pass","Dallas","Texas",75007
+411,487,"Work","3021 Fairview Drive","Plano","Texas",75007
+412,76,"Work","316 Eagan Circle","Richardson","Texas",75007
+413,640,"Work","31 Straubel Trail","Dallas","Texas",75007
+414,373,"Work","34948 Sunnyside Center","Dallas","Texas",75007
+415,959,"Work","358 Northwestern Hill","Plano","Texas",75007
+416,979,"Work","36884 Milwaukee Street","Dallas","Texas",75007
+417,574,"Work","40 Stoughton Road","Allen","Texas",75007
+418,874,"Work","410 Maple Street","Richardson","Texas",75007
+419,996,"Work","46412 Vahlen Park","Addison","Texas",75007
+420,87,"Work","4 Golf Avenue","Plano","Texas",75007
+421,479,"Work","4 Grim Road","Allen","Texas",75007
+422,963,"Work","4 Westerfield Court","Plano","Texas",75007
+423,470,"Work","5059 Summer Ridge Circle","Addison","Texas",75007
+424,688,"Work","534 Menomonie Street","Dallas","Texas",75007
+425,314,"Work","59368 Briar Crest Crossing","Allen","Texas",75007
+426,786,"Work","6117 Jenna Place","Allen","Texas",75007
+427,691,"Home","6417 Mccormick Lane","Addison","Texas",75007
+428,668,"Work","6621 Bay Point","Dallas","Texas",75007
+429,728,"Work","66535 Red Cloud Alley","Richardson","Texas",75007
+430,920,"Work","66919 Cody Trail","Dallas","Texas",75007
+431,527,"Work","6988 Eastlawn Terrace","Dallas","Texas",75007
+432,924,"Work","6 Esch Place","Allen","Texas",75007
+433,249,"Work","71 Gerald Road","Dallas","Texas",75007
+434,665,"Work","72229 Harbort Plaza","Richardson","Texas",75007
+435,513,"Work","7354 Harbort Lane","Dallas","Texas",75007
+436,401,"Work","75007 Village Parkway","Richardson","Texas",75007
+437,881,"Work","7534 Ludington Hill","Allen","Texas",75007
+438,951,"Work","76928 Little Fleur Street","Dallas","Texas",75007
+439,815,"Work","798 Pond Point","Addison","Texas",75007
+440,407,"Work","7 Northwestern Terrace","Allen","Texas",75007
+441,31,"Work","81910 Towne Hill","Plano","Texas",75007
+442,670,"Home","855 Ramsey Lane","Plano","Texas",75007
+443,791,"Work","8 Carberry Road","Plano","Texas",75007
+444,880,"Work","8 Duke Crossing","Richardson","Texas",75007
+445,65,"Work","928 Charing Cross Alley","Plano","Texas",75007
+446,631,"Work","95630 Old Shore Way","Allen","Texas",75007
+447,836,"Work","974 Green Center","Richardson","Texas",75007
+448,455,"Work","98 Harper Avenue","Plano","Texas",75007
+449,325,"Work","9 Hansons Terrace","Addison","Texas",75007
+450,582,"Work","01518 Gina Terrace","Allen","Texas",75008
+451,390,"Work","041 Grover Avenue","Richardson","Texas",75008
+452,540,"Work","0456 Messerschmidt Junction","Addison","Texas",75008
+453,421,"Work","0602 Old Shore Place","Plano","Texas",75008
+454,809,"Work","060 Express Center","Allen","Texas",75008
+455,36,"Work","1096 5th Drive","Richardson","Texas",75008
+456,472,"Work","10 Nobel Road","Richardson","Texas",75008
+457,272,"Work","1139 Saint Paul Way","Addison","Texas",75008
+458,535,"Work","115 Kropf Alley","Dallas","Texas",75008
+459,199,"Work","12259 Ruskin Crossing","Addison","Texas",75008
+460,609,"Work","14 Magdeline Point","Addison","Texas",75008
+461,690,"Work","15426 Duke Hill","Plano","Texas",75008
+462,862,"Work","157 Drewry Circle","Richardson","Texas",75008
+463,264,"Work","1 Prentice Terrace","Addison","Texas",75008
+464,947,"Work","21 Sutherland Road","Dallas","Texas",75008
+465,169,"Work","25 Scofield Pass","Allen","Texas",75008
+466,337,"Home","2960 Myrtle Drive","Plano","Texas",75008
+467,602,"Work","297 Stang Circle","Dallas","Texas",75008
+468,34,"Work","2 Farwell Park","Allen","Texas",75008
+469,882,"Work","302 East Center","Dallas","Texas",75008
+470,108,"Work","3175 Green Ridge Court","Richardson","Texas",75008
+471,43,"Work","3 5th Junction","Dallas","Texas",75008
+472,767,"Work","379 Eliot Junction","Addison","Texas",75008
+473,938,"Work","38 Artisan Junction","Addison","Texas",75008
+474,4,"Work","3 Mccormick Parkway","Allen","Texas",75008
+475,247,"Work","48607 Pankratz Crossing","Dallas","Texas",75008
+476,204,"Work","50544 Sutherland Drive","Addison","Texas",75008
+477,430,"Work","50840 Tomscot Lane","Allen","Texas",75008
+478,352,"Work","558 Annamark Parkway","Addison","Texas",75008
+479,91,"Work","55 Ridgeway Drive","Addison","Texas",75008
+480,623,"Work","5660 Corry Lane","Allen","Texas",75008
+481,145,"Work","5874 Granby Alley","Allen","Texas",75008
+482,490,"Work","5 Bluejay Point","Plano","Texas",75008
+483,180,"Work","5 Pond Place","Addison","Texas",75008
+484,956,"Work","5 Weeping Birch Avenue","Dallas","Texas",75008
+485,778,"Work","6157 Ramsey Alley","Plano","Texas",75008
+486,754,"Home","6342 Eastwood Trail","Allen","Texas",75008
+487,943,"Work","6409 Warner Terrace","Dallas","Texas",75008
+488,96,"Work","6678 Service Circle","Addison","Texas",75008
+489,953,"Work","6798 Gale Point","Plano","Texas",75008
+490,991,"Work","67 Continental Hill","Dallas","Texas",75008
+491,761,"Work","69224 Prentice Alley","Richardson","Texas",75008
+492,905,"Work","72162 Pond Park","Addison","Texas",75008
+493,734,"Work","72441 Thierer Plaza","Addison","Texas",75008
+494,877,"Home","7272 Hayes Point","Allen","Texas",75008
+495,601,"Work","7 3rd Park","Plano","Texas",75008
+496,206,"Work","74 Thackeray Road","Dallas","Texas",75008
+497,577,"Work","768 Manley Road","Addison","Texas",75008
+498,134,"Work","7869 Onsgard Pass","Addison","Texas",75008
+499,128,"Work","7948 Sunbrook Crossing","Allen","Texas",75008
+500,523,"Work","79568 Oxford Plaza","Addison","Texas",75008
+501,342,"Work","795 Merchant Center","Addison","Texas",75008
+502,372,"Work","79 Farragut Junction","Addison","Texas",75008
+503,618,"Work","80162 Warner Park","Allen","Texas",75008
+504,893,"Work","8401 Vidon Center","Richardson","Texas",75008
+505,824,"Work","84 7th Crossing","Addison","Texas",75008
+506,575,"Work","86178 Hoffman Place","Richardson","Texas",75008
+507,940,"Work","8685 Carey Crossing","Plano","Texas",75008
+508,13,"Work","8705 West Junction","Addison","Texas",75008
+509,556,"Work","89192 Dexter Court","Addison","Texas",75008
+510,172,"Work","8 Jenifer Terrace","Richardson","Texas",75008
+511,744,"Work","902 Emmet Place","Allen","Texas",75008
+512,620,"Work","90323 Grover Lane","Plano","Texas",75008
+513,291,"Work","91 Barnett Drive","Richardson","Texas",75008
+514,835,"Work","945 Hagan Terrace","Allen","Texas",75008
+515,935,"Work","98238 Sloan Lane","Addison","Texas",75008
+516,273,"Home","9 Melrose Street","Plano","Texas",75008
+517,587,"Home","9 Warrior Plaza","Plano","Texas",75008
+518,975,"Work","0059 Hoepker Place","Richardson","Texas",75009
+519,64,"Work","00 Haas Road","Allen","Texas",75009
+520,629,"Work","00 Messerschmidt Street","Richardson","Texas",75009
+521,613,"Home","0327 Monica Avenue","Addison","Texas",75009
+522,348,"Home","0 Brickson Park Place","Plano","Texas",75009
+523,849,"Work","0 Sachtjen Lane","Allen","Texas",75009
+524,288,"Work","11982 Fordem Alley","Allen","Texas",75009
+525,218,"Work","14 Talisman Street","Allen","Texas",75009
+526,987,"Work","161 Katie Drive","Addison","Texas",75009
+527,658,"Work","16847 Jay Terrace","Allen","Texas",75009
+528,524,"Work","22928 Delaware Terrace","Addison","Texas",75009
+529,827,"Work","2521 Petterle Junction","Richardson","Texas",75009
+530,345,"Work","29889 Bunting Trail","Richardson","Texas",75009
+531,589,"Work","2 Del Mar Crossing","Richardson","Texas",75009
+532,175,"Work","32 Farragut Drive","Dallas","Texas",75009
+533,810,"Home","335 Forest Drive","Allen","Texas",75009
+534,196,"Work","386 Cordelia Crossing","Richardson","Texas",75009
+535,320,"Work","38748 Merry Lane","Plano","Texas",75009
+536,997,"Work","3 Pennsylvania Terrace","Addison","Texas",75009
+537,242,"Work","40898 Sunbrook Junction","Plano","Texas",75009
+538,936,"Work","422 Bobwhite Park","Addison","Texas",75009
+539,420,"Work","430 Mcbride Street","Richardson","Texas",75009
+540,6,"Work","44 Farragut Avenue","Addison","Texas",75009
+541,142,"Work","49298 Pierstorff Center","Richardson","Texas",75009
+542,74,"Work","4 Ilene Junction","Richardson","Texas",75009
+543,222,"Work","4 Roth Road","Allen","Texas",75009
+544,801,"Work","4 Springs Avenue","Dallas","Texas",75009
+545,981,"Work","501 Valley Edge Park","Richardson","Texas",75009
+546,160,"Work","555 Macpherson Point","Allen","Texas",75009
+547,615,"Work","57 Cambridge Crossing","Dallas","Texas",75009
+548,337,"Work","65279 Dakota Avenue","Richardson","Texas",75009
+549,581,"Work","6705 Tennyson Junction","Allen","Texas",75009
+550,693,"Work","68443 Bonner Junction","Allen","Texas",75009
+551,263,"Work","6 Fremont Park","Allen","Texas",75009
+552,184,"Work","719 Kensington Park","Allen","Texas",75009
+553,405,"Work","74472 Valley Edge Crossing","Allen","Texas",75009
+554,256,"Work","7529 Upham Drive","Allen","Texas",75009
+555,579,"Work","76477 Hintze Drive","Plano","Texas",75009
+556,531,"Work","7 Homewood Park","Richardson","Texas",75009
+557,694,"Work","8198 Graedel Terrace","Allen","Texas",75009
+558,655,"Work","830 Dovetail Terrace","Addison","Texas",75009
+559,931,"Work","8467 Dottie Place","Dallas","Texas",75009
+560,276,"Work","85 Portage Point","Dallas","Texas",75009
+561,550,"Work","865 Declaration Court","Dallas","Texas",75009
+562,346,"Work","8 Homewood Hill","Allen","Texas",75009
+563,408,"Work","906 Mcguire Junction","Richardson","Texas",75009
+564,638,"Work","90 Lunder Center","Dallas","Texas",75009
+565,783,"Work","939 Ohio Terrace","Allen","Texas",75009
+566,521,"Work","93 Lillian Hill","Richardson","Texas",75009
+567,265,"Work","93 Waywood Way","Richardson","Texas",75009
+568,55,"Work","9562 Northfield Park","Plano","Texas",75009
+569,183,"Work","95 Barnett Terrace","Dallas","Texas",75009
+570,248,"Work","960 Sunnyside Hill","Dallas","Texas",75009
+571,676,"Work","97 Main Park","Addison","Texas",75009
+572,927,"Home","9835 Kropf Terrace","Dallas","Texas",75009
+573,51,"Home","3681 Schmedeman Park","Allen","Texas",75010
+574,527,"Home","3896 Columbus Parkway","Addison","Texas",75010
+575,312,"Home","3 Bayside Way","Richardson","Texas",75010
+576,945,"Home","51 Northridge Court","Addison","Texas",75010
+577,366,"Home","53 Thierer Junction","Dallas","Texas",75010
+578,260,"Home","81 Talisman Point","Allen","Texas",75010
+579,162,"Home","90 Elmside Hill","Richardson","Texas",75010
+580,49,"Home","160 Grasskamp Park","Allen","Texas",75011
+581,813,"Home","26 Roxbury Terrace","Dallas","Texas",75011
+582,683,"Home","3325 Bartelt Place","Plano","Texas",75011
+583,41,"Home","5395 Becker Drive","Plano","Texas",75011
+584,432,"Home","570 Prairie Rose Terrace","Richardson","Texas",75011
+585,469,"Home","887 Mockingbird Park","Richardson","Texas",75011
+586,61,"Home","9028 Carberry Avenue","Addison","Texas",75011
+587,650,"Home","3 Jana Avenue","Allen","Texas",75012
+588,714,"Home","3 Spaight Hill","Allen","Texas",75012
+589,218,"Home","5303 Stoughton Circle","Allen","Texas",75012
+590,253,"Home","830 Mccormick Drive","Plano","Texas",75012
+591,418,"Home","8831 Waxwing Point","Addison","Texas",75012
+592,803,"Home","959 Tony Alley","Allen","Texas",75012
+593,13,"Home","15 Jackson Lane","Allen","Texas",75013
+594,42,"Home","4585 Bluestem Avenue","Plano","Texas",75013
+595,100,"Home","470 Derek Plaza","Richardson","Texas",75013
+596,451,"Home","47751 Red Cloud Street","Dallas","Texas",75013
+597,191,"Home","4 Kinsman Junction","Plano","Texas",75013
+598,576,"Home","723 Bayside Alley","Richardson","Texas",75013
+599,799,"Home","75023 Carioca Drive","Plano","Texas",75013
+600,252,"Home","07 Kenwood Plaza","Allen","Texas",75014
+601,202,"Home","091 Old Shore Plaza","Richardson","Texas",75014
+602,822,"Home","2114 Ramsey Lane","Dallas","Texas",75014
+603,804,"Home","2694 Pankratz Avenue","Allen","Texas",75014
+604,607,"Home","509 Cherokee Circle","Dallas","Texas",75014
+605,993,"Home","51469 Becker Point","Dallas","Texas",75014
+606,105,"Home","7 Sugar Parkway","Richardson","Texas",75014
+607,277,"Home","40 Garrison Circle","Allen","Texas",75015
+608,712,"Home","4169 Namekagon Park","Plano","Texas",75015
+609,339,"Home","53 Hermina Plaza","Richardson","Texas",75015
+610,333,"Home","318 Canary Place","Richardson","Texas",75016
+611,568,"Home","49356 Anhalt Court","Dallas","Texas",75016
+612,906,"Home","4 Porter Circle","Addison","Texas",75016
+613,60,"Home","99687 Jenna Circle","Richardson","Texas",75016
+614,987,"Home","1 Thierer Drive","Richardson","Texas",75017
+615,495,"Home","3 Maple Wood Plaza","Dallas","Texas",75017
+616,853,"Home","4 Charing Cross Hill","Allen","Texas",75017
+617,62,"Home","55 Del Mar Hill","Allen","Texas",75017
+618,386,"Home","86112 Michigan Alley","Plano","Texas",75017
+619,159,"Home","168 Eagan Road","Allen","Texas",75018
+620,173,"Home","21 Canary Park","Plano","Texas",75018
+621,193,"Home","3396 Claremont Trail","Allen","Texas",75018
+622,949,"Home","497 Macpherson Alley","Dallas","Texas",75018
+623,389,"Home","5 Sunfield Trail","Plano","Texas",75018
+624,523,"Home","64231 Green Ridge Parkway","Dallas","Texas",75018
+625,865,"Home","2 Rutledge Lane","Allen","Texas",75019
+626,609,"Home","59 Talisman Road","Allen","Texas",75019
+627,401,"Home","7996 Oak Valley Circle","Plano","Texas",75019
+628,642,"Home","8 Calypso Drive","Richardson","Texas",75019
+629,838,"Home","0559 Mosinee Park","Allen","Texas",75020
+630,672,"Home","2857 Weeping Birch Center","Plano","Texas",75020
+631,371,"Home","463 5th Junction","Addison","Texas",75020
+632,488,"Home","65 Tony Way","Plano","Texas",75020
+633,340,"Home","01 Fieldstone Terrace","Addison","Texas",75021
+634,809,"Home","1909 Farmco Alley","Dallas","Texas",75021
+635,783,"Home","22617 Farragut Park","Richardson","Texas",75021
+636,299,"Home","37 Sachtjen Center","Plano","Texas",75021
+637,506,"Home","3 Chinook Junction","Addison","Texas",75021
+638,715,"Home","4530 Schurz Pass","Richardson","Texas",75021
+639,651,"Home","65148 Marcy Center","Dallas","Texas",75021
+640,614,"Home","72 Macpherson Avenue","Plano","Texas",75021
+641,580,"Home","8 Rockefeller Drive","Plano","Texas",75021
+642,85,"Home","933 Debra Terrace","Allen","Texas",75021
+643,883,"Home","9 Springs Circle","Addison","Texas",75021
+644,705,"Home","06 Knutson Place","Allen","Texas",75022
+645,513,"Home","3 Straubel Trail","Addison","Texas",75022
+646,884,"Home","84964 Division Avenue","Plano","Texas",75022
+647,889,"Home","84 Schmedeman Lane","Richardson","Texas",75022
+648,819,"Home","14510 Northfield Street","Dallas","Texas",75023
+649,236,"Home","390 Kenwood Hill","Richardson","Texas",75023
+650,643,"Home","3 Memorial Terrace","Dallas","Texas",75023
+651,231,"Home","3 Village Green Parkway","Addison","Texas",75023
+652,696,"Home","69493 Amoth Alley","Plano","Texas",75023
+653,437,"Home","1152 Basil Crossing","Plano","Texas",75024
+654,600,"Home","25433 Sauthoff Place","Allen","Texas",75024
+655,968,"Home","31568 Dakota Crossing","Richardson","Texas",75024
+656,421,"Home","6367 Annamark Junction","Plano","Texas",75024
+657,723,"Home","93 Dapin Court","Allen","Texas",75024
+658,871,"Home","9 John Wall Terrace","Allen","Texas",75024
+659,747,"Home","57 Hermina Center","Plano","Texas",75025
+660,235,"Home","6 Valley Edge Hill","Addison","Texas",75025
+661,374,"Home","778 Carey Avenue","Addison","Texas",75025
+662,570,"Home","952 Browning Junction","Allen","Texas",75025
+663,563,"Home","9 Dorton Hill","Addison","Texas",75025
+664,569,"Home","0187 Beilfuss Crossing","Allen","Texas",75026
+665,938,"Home","0 Grim Trail","Dallas","Texas",75026
+666,141,"Home","137 Moose Circle","Plano","Texas",75026
+667,793,"Home","84513 Heath Pass","Plano","Texas",75026
+668,194,"Home","04546 Tennyson Alley","Plano","Texas",75027
+669,313,"Home","271 Bowman Way","Plano","Texas",75027
+670,286,"Home","5547 Mallard Park","Allen","Texas",75027
+671,10,"Home","6687 Dottie Plaza","Richardson","Texas",75027
+672,633,"Home","6 Anzinger Street","Plano","Texas",75027
+673,132,"Home","97 Cardinal Road","Dallas","Texas",75027
+674,278,"Home","1 Spohn Lane","Plano","Texas",75028
+675,121,"Home","24 Doe Crossing Court","Dallas","Texas",75028
+676,770,"Home","96058 Lakewood Place","Allen","Texas",75028
+677,583,"Home","120 Tony Center","Addison","Texas",75029
+678,311,"Home","5598 Waxwing Crossing","Richardson","Texas",75029
+679,762,"Home","581 2nd Avenue","Allen","Texas",75029
+680,276,"Home","72920 Ruskin Trail","Dallas","Texas",75029
+681,989,"Home","8 Huxley Junction","Plano","Texas",75029
+682,649,"Home","9 Stephen Way","Richardson","Texas",75029
+683,304,"Home","03 Tomscot Circle","Plano","Texas",75030
+684,834,"Home","46311 Caliangt Street","Plano","Texas",75030
+685,242,"Home","50 Sycamore Plaza","Addison","Texas",75030
+686,46,"Home","825 Dixon Lane","Dallas","Texas",75030
+687,360,"Home","1131 Marquette Parkway","Richardson","Texas",75031
+688,118,"Home","24 Welch Avenue","Plano","Texas",75031
+689,283,"Home","328 Farragut Circle","Richardson","Texas",75031
+690,353,"Home","9 Lighthouse Bay Court","Allen","Texas",75031
+691,736,"Home","00818 Springs Court","Dallas","Texas",75032
+692,862,"Home","1295 Warbler Court","Richardson","Texas",75032
+693,632,"Home","1 Blackbird Pass","Allen","Texas",75032
+694,811,"Home","24942 Talisman Pass","Allen","Texas",75032
+695,903,"Home","472 Kennedy Road","Addison","Texas",75032
+696,225,"Home","51 Dexter Drive","Dallas","Texas",75032
+697,58,"Home","56378 Talisman Drive","Allen","Texas",75032
+698,524,"Home","58 Northview Drive","Allen","Texas",75032
+699,200,"Home","8 Twin Pines Lane","Richardson","Texas",75032
+700,377,"Home","9322 Armistice Park","Plano","Texas",75032
+701,373,"Home","0 Truax Park","Plano","Texas",75033
+702,831,"Home","14320 Beilfuss Hill","Plano","Texas",75033
+703,932,"Home","16872 Mosinee Place","Addison","Texas",75033
+704,972,"Home","22 Dwight Center","Addison","Texas",75033
+705,697,"Home","53 Harbort Center","Plano","Texas",75033
+706,147,"Home","8406 Golf Course Trail","Allen","Texas",75033
+707,954,"Home","88888 Anthes Park","Allen","Texas",75033
+708,817,"Home","15752 Lillian Pass","Plano","Texas",75034
+709,93,"Home","27 Talmadge Park","Plano","Texas",75034
+710,350,"Home","3852 Fallview Pass","Richardson","Texas",75034
+711,403,"Home","4991 Dapin Crossing","Richardson","Texas",75034
+712,710,"Home","6161 Clyde Gallagher Parkway","Dallas","Texas",75034
+713,582,"Home","680 Meadow Vale Parkway","Richardson","Texas",75034
+714,734,"Home","9 Russell Parkway","Addison","Texas",75034
+715,726,"Home","09 Springs Avenue","Dallas","Texas",75035
+716,969,"Home","489 Quincy Hill","Plano","Texas",75035
+717,303,"Home","563 Mockingbird Point","Richardson","Texas",75035
+718,358,"Home","6 Crescent Oaks Parkway","Addison","Texas",75035
+719,698,"Home","84579 Blackbird Street","Dallas","Texas",75035
+720,399,"Home","88 Anderson Trail","Dallas","Texas",75035
+721,662,"Home","0 Kinsman Plaza","Richardson","Texas",75036
+722,639,"Home","4090 Loeprich Place","Addison","Texas",75036
+723,975,"Home","70338 Clyde Gallagher Street","Dallas","Texas",75036
+724,416,"Home","9165 Colorado Way","Richardson","Texas",75036
+725,1000,"Home","18201 Novick Circle","Richardson","Texas",75037
+726,408,"Home","1 Superior Park","Dallas","Texas",75037
+727,409,"Home","45 Summit Trail","Dallas","Texas",75037
+728,37,"Home","660 Truax Way","Dallas","Texas",75037
+729,925,"Home","6 Steensland Plaza","Plano","Texas",75037
+730,475,"Home","135 Mariners Cove Parkway","Richardson","Texas",75038
+731,731,"Home","24 Center Hill","Dallas","Texas",75038
+732,879,"Home","2 Grover Plaza","Richardson","Texas",75038
+733,165,"Home","38 Mallard Place","Richardson","Texas",75038
+734,837,"Home","447 7th Pass","Addison","Texas",75038
+735,420,"Home","5 Melvin Drive","Richardson","Texas",75038
+736,500,"Home","036 Pleasure Parkway","Addison","Texas",75039
+737,463,"Home","3912 Riverside Circle","Richardson","Texas",75039
+738,660,"Home","48665 Eastwood Drive","Addison","Texas",75039
+739,446,"Home","49285 Huxley Park","Richardson","Texas",75039
+740,665,"Home","72 Tennessee Park","Allen","Texas",75039
+741,544,"Home","1086 Ludington Pass","Addison","Texas",75040
+742,295,"Home","1174 Sullivan Avenue","Allen","Texas",75040
+743,74,"Home","1430 Linden Way","Addison","Texas",75040
+744,369,"Home","1 Hovde Pass","Addison","Texas",75040
+745,798,"Home","263 1st Street","Allen","Texas",75040
+746,833,"Home","27 Vahlen Street","Allen","Texas",75040
+747,166,"Home","2873 Rusk Crossing","Allen","Texas",75040
+748,708,"Home","6 6th Place","Plano","Texas",75040
+749,8,"Home","16515 Nova Hill","Allen","Texas",75041
+750,508,"Home","546 Arapahoe Alley","Allen","Texas",75041
+751,44,"Home","9274 Spohn Hill","Dallas","Texas",75041
+752,336,"Home","944 Porter Crossing","Addison","Texas",75041
+753,326,"Home","45 Miller Trail","Plano","Texas",75042
+754,443,"Home","6 Aberg Hill","Allen","Texas",75042
+755,318,"Home","8232 Chive Point","Plano","Texas",75042
+756,160,"Home","3037 Center Crossing","Plano","Texas",75043
+757,347,"Home","52 Morningstar Road","Plano","Texas",75043
+758,674,"Home","5 Claremont Junction","Allen","Texas",75043
+759,701,"Home","7714 Mifflin Street","Dallas","Texas",75043
+760,752,"Home","92 Onsgard Point","Allen","Texas",75043
+761,577,"Home","9494 3rd Parkway","Addison","Texas",75043
+762,808,"Home","9 New Castle Hill","Allen","Texas",75043
+763,792,"Home","07 Rockefeller Hill","Allen","Texas",75044
+764,836,"Home","09 Butternut Plaza","Allen","Texas",75044
+765,465,"Home","34 Dexter Drive","Plano","Texas",75044
+766,637,"Home","5 Reinke Center","Addison","Texas",75044
+767,142,"Home","63832 Shasta Crossing","Plano","Texas",75044
+768,716,"Home","9 Rowland Pass","Addison","Texas",75044
+769,209,"Home","054 Mccormick Court","Richardson","Texas",75045
+770,646,"Home","478 Birchwood Court","Plano","Texas",75045
+771,917,"Home","50 Eastwood Junction","Dallas","Texas",75045
+772,38,"Home","75903 Linden Circle","Plano","Texas",75045
+773,706,"Home","9878 Caliangt Plaza","Plano","Texas",75045
+774,769,"Home","1384 Arizona Road","Richardson","Texas",75046
+775,806,"Home","1476 Ramsey Street","Richardson","Texas",75046
+776,22,"Home","528 Main Junction","Dallas","Texas",75046
+777,16,"Home","65052 Heath Point","Plano","Texas",75046
+778,243,"Home","762 Roxbury Alley","Allen","Texas",75046
+779,227,"Home","812 Hermina Road","Richardson","Texas",75046
+780,25,"Home","83 Shoshone Parkway","Plano","Texas",75046
+781,34,"Home","26 Towne Road","Richardson","Texas",75047
+782,519,"Home","30380 Melvin Terrace","Addison","Texas",75047
+783,970,"Home","6 Rutledge Parkway","Dallas","Texas",75047
+784,512,"Home","74 Grim Center","Addison","Texas",75047
+785,292,"Home","808 Merry Avenue","Dallas","Texas",75047
+786,627,"Home","0236 Memorial Park","Plano","Texas",75048
+787,70,"Home","08 Fremont Road","Allen","Texas",75048
+788,66,"Home","11 Donald Plaza","Allen","Texas",75048
+789,334,"Home","474 Weeping Birch Park","Dallas","Texas",75048
+790,352,"Home","4 Independence Hill","Plano","Texas",75048
+791,335,"Home","5762 Toban Alley","Addison","Texas",75048
+792,210,"Home","83 Esch Road","Plano","Texas",75048
+793,153,"Home","003 Morrow Crossing","Allen","Texas",75049
+794,976,"Home","204 Caliangt Way","Dallas","Texas",75049
+795,68,"Home","3 Moulton Junction","Addison","Texas",75049
+796,940,"Home","4191 Del Sol Street","Allen","Texas",75049
+797,515,"Home","4 Golf View Street","Richardson","Texas",75049
+798,384,"Home","66 Sunbrook Hill","Richardson","Texas",75049
+799,699,"Home","9 Manley Lane","Plano","Texas",75049
+800,732,"Home","1473 Farmco Circle","Plano","Texas",75050
+801,615,"Home","26807 Bayside Point","Allen","Texas",75050
+802,525,"Home","26 Stuart Road","Plano","Texas",75050
+803,737,"Home","352 Westridge Parkway","Richardson","Texas",75050
+804,287,"Home","3 Menomonie Court","Plano","Texas",75050
+805,375,"Home","4510 Southridge Circle","Allen","Texas",75050
+806,821,"Home","5 Dorton Crossing","Dallas","Texas",75050
+807,825,"Home","9412 Kennedy Plaza","Richardson","Texas",75050
+808,71,"Home","1251 Graceland Point","Dallas","Texas",75051
+809,238,"Home","13429 Northport Circle","Richardson","Texas",75051
+810,606,"Home","32742 Fieldstone Plaza","Allen","Texas",75051
+811,623,"Home","417 Lighthouse Bay Lane","Plano","Texas",75051
+812,594,"Home","465 Rigney Way","Allen","Texas",75051
+813,327,"Home","8 Forest Dale Way","Plano","Texas",75051
+814,526,"Home","0 Crowley Circle","Allen","Texas",75052
+815,545,"Home","11388 Reinke Way","Addison","Texas",75052
+816,827,"Home","1 Manley Circle","Richardson","Texas",75052
+817,744,"Home","345 Erie Pass","Dallas","Texas",75052
+818,240,"Home","3595 Huxley Way","Addison","Texas",75052
+819,136,"Home","3 Gulseth Alley","Addison","Texas",75052
+820,675,"Home","436 Fremont Circle","Allen","Texas",75052
+821,828,"Home","46 Bayside Point","Allen","Texas",75052
+822,155,"Home","679 Pankratz Lane","Addison","Texas",75052
+823,855,"Home","925 Rieder Junction","Richardson","Texas",75052
+824,901,"Home","9 Moulton Avenue","Richardson","Texas",75052
+825,882,"Home","25 Arrowood Circle","Richardson","Texas",75053
+826,86,"Home","4265 Mayer Junction","Plano","Texas",75053
+827,491,"Home","1775 Columbus Place","Addison","Texas",75054
+828,774,"Home","20022 Marcy Hill","Dallas","Texas",75054
+829,427,"Home","43 Tennessee Park","Dallas","Texas",75054
+830,924,"Home","634 Dennis Drive","Plano","Texas",75054
+831,345,"Home","8733 Aberg Crossing","Addison","Texas",75054
+832,164,"Home","9547 Michigan Lane","Addison","Texas",75054
+833,285,"Home","1 Monterey Point","Dallas","Texas",75055
+834,95,"Home","2449 Pepper Wood Court","Plano","Texas",75055
+835,952,"Home","5 Merry Crossing","Richardson","Texas",75055
+836,88,"Home","71 Jay Terrace","Plano","Texas",75055
+837,693,"Home","77873 Annamark Drive","Allen","Texas",75055
+838,117,"Home","19886 Pine View Terrace","Addison","Texas",75056
+839,892,"Home","25181 La Follette Place","Dallas","Texas",75056
+840,658,"Home","33 Farwell Junction","Allen","Texas",75056
+841,740,"Home","929 Weeping Birch Avenue","Dallas","Texas",75056
+842,689,"Home","10220 Golden Leaf Lane","Richardson","Texas",75057
+843,498,"Home","1 Gulseth Center","Allen","Texas",75057
+844,678,"Home","3133 Swallow Circle","Addison","Texas",75057
+845,382,"Home","7986 Fallview Point","Richardson","Texas",75057
+846,94,"Home","801 Pleasure Trail","Addison","Texas",75057
+847,894,"Home","8118 Eastlawn Parkway","Allen","Texas",75057
+848,801,"Home","903 Becker Avenue","Allen","Texas",75057
+849,735,"Home","990 Northview Court","Plano","Texas",75057
+850,192,"Home","3 Karstens Park","Dallas","Texas",75058
+851,547,"Home","05232 Knutson Pass","Richardson","Texas",75059
+852,69,"Home","434 Farwell Plaza","Plano","Texas",75059
+853,87,"Home","46 Oakridge Avenue","Richardson","Texas",75059
+854,11,"Home","8 Luster Terrace","Dallas","Texas",75059
+855,863,"Home","93552 Muir Plaza","Dallas","Texas",75059
+856,899,"Home","9463 Lake View Road","Allen","Texas",75059
+857,363,"Home","029 Derek Crossing","Allen","Texas",75060
+858,456,"Home","0 Larry Way","Allen","Texas",75060
+859,32,"Home","504 Bayside Pass","Dallas","Texas",75060
+860,816,"Home","592 Park Meadow Center","Addison","Texas",75060
+861,997,"Home","782 Lighthouse Bay Pass","Allen","Texas",75060
+862,219,"Home","2250 Bunting Point","Addison","Texas",75061
+863,330,"Home","2737 School Avenue","Richardson","Texas",75061
+864,45,"Home","34 Northfield Plaza","Dallas","Texas",75061
+865,362,"Home","36 Nova Junction","Addison","Texas",75061
+866,5,"Home","62477 Hovde Hill","Allen","Texas",75061
+867,207,"Home","6247 Macpherson Way","Addison","Texas",75061
+868,452,"Home","648 Hooker Junction","Dallas","Texas",75061
+869,186,"Home","68 Cherokee Way","Addison","Texas",75061
+870,486,"Home","74197 Mcguire Avenue","Addison","Texas",75061
+871,107,"Home","80 Welch Street","Allen","Texas",75061
+872,875,"Home","959 Hallows Plaza","Dallas","Texas",75061
+873,890,"Home","9 Montana Plaza","Dallas","Texas",75061
+874,2,"Home","2287 Sutteridge Park","Dallas","Texas",75062
+875,197,"Home","3774 Shoshone Hill","Addison","Texas",75062
+876,581,"Home","44630 Elgar Avenue","Allen","Texas",75062
+877,571,"Home","59 Buell Park","Richardson","Texas",75062
+878,990,"Home","70 Del Mar Junction","Plano","Texas",75062
+879,765,"Home","905 Muir Circle","Richardson","Texas",75062
+880,331,"Home","1 Chive Junction","Dallas","Texas",75063
+881,738,"Home","22 Magdeline Street","Dallas","Texas",75063
+882,494,"Home","289 Russell Pass","Plano","Texas",75063
+883,133,"Home","54 Lakewood Drive","Richardson","Texas",75063
+884,250,"Home","5 Jana Alley","Richardson","Texas",75063
+885,848,"Home","827 Riverside Lane","Addison","Texas",75063
+886,130,"Home","1652 Rowland Plaza","Addison","Texas",75064
+887,187,"Home","1 Kenwood Road","Richardson","Texas",75064
+888,812,"Home","2 Bashford Terrace","Richardson","Texas",75064
+889,180,"Home","2 Sunfield Street","Plano","Texas",75064
+890,942,"Home","3 Saint Paul Pass","Allen","Texas",75064
+891,911,"Home","3 Walton Point","Plano","Texas",75064
+892,873,"Home","65458 Glacier Hill Plaza","Dallas","Texas",75064
+893,703,"Home","7260 Laurel Alley","Richardson","Texas",75064
+894,790,"Home","7 Armistice Place","Richardson","Texas",75064
+895,73,"Home","86545 Tennyson Crossing","Richardson","Texas",75064
+896,895,"Home","951 Forest Run Plaza","Richardson","Texas",75064
+897,845,"Home","13 Park Meadow Way","Allen","Texas",75065
+898,794,"Home","24976 Eagan Parkway","Addison","Texas",75065
+899,489,"Home","26 Riverside Drive","Plano","Texas",75065
+900,843,"Home","31006 Londonderry Pass","Allen","Texas",75065
+901,866,"Home","57250 Butternut Alley","Dallas","Texas",75065
+902,251,"Home","57366 Hayes Pass","Addison","Texas",75065
+903,522,"Home","57436 Merrick Lane","Dallas","Texas",75065
+904,746,"Home","8772 Iowa Road","Richardson","Texas",75065
+905,272,"Home","5 Hanover Crossing","Dallas","Texas",75066
+906,654,"Home","677 Fordem Court","Allen","Texas",75066
+907,860,"Home","7 Fairfield Drive","Plano","Texas",75066
+908,807,"Home","91870 Nevada Trail","Plano","Texas",75066
+909,946,"Home","4 John Wall Park","Plano","Texas",75067
+910,78,"Home","4 Sunbrook Avenue","Addison","Texas",75067
+911,57,"Home","589 Mccormick Parkway","Dallas","Texas",75067
+912,89,"Home","598 Elmside Drive","Dallas","Texas",75067
+913,677,"Home","1766 Mifflin Court","Dallas","Texas",75068
+914,139,"Home","28 Hollow Ridge Lane","Plano","Texas",75068
+915,411,"Home","5 Debs Park","Allen","Texas",75068
+916,727,"Home","77822 Delladonna Terrace","Allen","Texas",75068
+917,902,"Home","0695 Dakota Terrace","Addison","Texas",75069
+918,722,"Home","59 Emmet Crossing","Plano","Texas",75069
+919,963,"Home","5 Harper Crossing","Allen","Texas",75069
+920,815,"Home","5 Messerschmidt Street","Plano","Texas",75069
+921,435,"Home","66 Service Pass","Dallas","Texas",75069
+922,900,"Home","334 Almo Avenue","Dallas","Texas",75070
+923,824,"Home","4525 Fulton Alley","Dallas","Texas",75070
+924,598,"Home","57438 Arrowood Alley","Dallas","Texas",75070
+925,148,"Home","2 Truax Trail","Addison","Texas",75071
+926,279,"Home","37 Rusk Place","Addison","Texas",75071
+927,616,"Home","877 Fairview Road","Allen","Texas",75071
+928,111,"Home","3188 Fieldstone Circle","Plano","Texas",75072
+929,104,"Home","4 Dwight Court","Richardson","Texas",75072
+930,641,"Home","981 Rockefeller Crossing","Plano","Texas",75072
+931,967,"Home","053 Dakota Avenue","Addison","Texas",75073
+932,950,"Home","06661 Westport Plaza","Plano","Texas",75073
+933,257,"Home","42330 Hooker Parkway","Allen","Texas",75073
+934,370,"Home","620 West Drive","Addison","Texas",75073
+935,77,"Home","840 Kingsford Parkway","Richardson","Texas",75073
+936,83,"Home","204 Farwell Avenue","Plano","Texas",75074
+937,55,"Home","22839 Stuart Park","Richardson","Texas",75074
+938,787,"Home","3088 Troy Trail","Richardson","Texas",75074
+939,971,"Home","5452 Walton Junction","Richardson","Texas",75074
+940,307,"Home","26 Erie Hill","Richardson","Texas",75075
+941,935,"Home","64 Morningstar Junction","Allen","Texas",75075
+942,826,"Home","8 Monica Park","Richardson","Texas",75075
+943,905,"Home","08299 Lillian Drive","Allen","Texas",75076
+944,720,"Home","2132 Eastwood Place","Plano","Texas",75076
+945,620,"Home","22191 Declaration Plaza","Allen","Texas",75076
+946,760,"Home","23 Scott Plaza","Addison","Texas",75076
+947,332,"Home","2 Randy Way","Addison","Texas",75076
+948,323,"Home","318 Moose Trail","Richardson","Texas",75076
+949,763,"Home","80509 Glendale Circle","Plano","Texas",75076
+950,372,"Home","02 Northport Park","Richardson","Texas",75077
+951,733,"Home","07389 Dorton Park","Plano","Texas",75077
+952,485,"Home","114 La Follette Crossing","Addison","Texas",75077
+953,955,"Home","2167 Village Green Hill","Dallas","Texas",75077
+954,419,"Home","25 Straubel Lane","Allen","Texas",75077
+955,216,"Home","430 Hudson Hill","Allen","Texas",75077
+956,988,"Home","7 Brown Hill","Addison","Texas",75077
+957,608,"Home","04 Randy Circle","Allen","Texas",75078
+958,557,"Home","1 Mallard Trail","Addison","Texas",75078
+959,40,"Home","6 Muir Circle","Dallas","Texas",75078
+960,15,"Home","9 Logan Parkway","Dallas","Texas",75078
+961,981,"Home","07151 Anderson Trail","Allen","Texas",75079
+962,999,"Home","5729 Farragut Plaza","Dallas","Texas",75079
+963,80,"Home","65183 Delladonna Avenue","Allen","Texas",75079
+964,546,"Home","68 Laurel Plaza","Allen","Texas",75079
+965,536,"Home","837 Westridge Lane","Allen","Texas",75079
+966,514,"Home","09144 Waxwing Parkway","Plano","Texas",75080
+967,511,"Home","1160 Waubesa Court","Addison","Texas",75080
+968,679,"Home","219 Oxford Street","Allen","Texas",75080
+969,188,"Home","281 Waxwing Point","Richardson","Texas",75080
+970,775,"Home","40973 Victoria Center","Richardson","Texas",75080
+971,904,"Home","9772 Eastwood Circle","Richardson","Texas",75080
+972,75,"Home","2268 Nancy Lane","Richardson","Texas",75081
+973,540,"Home","5 Merry Terrace","Richardson","Texas",75081
+974,181,"Home","9 Vahlen Drive","Richardson","Texas",75081
+975,704,"Home","2 Eliot Way","Addison","Texas",75082
+976,315,"Home","35 Caliangt Terrace","Addison","Texas",75082
+977,617,"Home","51 Almo Circle","Allen","Texas",75082
+978,943,"Home","66 Surrey Circle","Dallas","Texas",75082
+979,464,"Home","79872 Roth Way","Plano","Texas",75082
+980,599,"Home","810 Carberry Place","Dallas","Texas",75082
+981,220,"Home","86414 Gateway Alley","Plano","Texas",75082
+982,27,"Home","18894 Division Lane","Richardson","Texas",75083
+983,281,"Home","2 Hanson Point","Addison","Texas",75083
+984,199,"Home","48 Tony Parkway","Plano","Texas",75083
+985,868,"Home","708 Grover Parkway","Allen","Texas",75083
+986,14,"Home","79254 Pond Center","Dallas","Texas",75083
+987,480,"Home","8142 Mccormick Pass","Dallas","Texas",75083
+988,645,"Home","8240 Dexter Avenue","Plano","Texas",75083
+989,262,"Home","9113 Dakota Crossing","Richardson","Texas",75083
+990,973,"Home","9 Kim Alley","Plano","Texas",75083
+991,634,"Home","15 Maywood Center","Addison","Texas",75084
+992,397,"Home","81 Lillian Crossing","Plano","Texas",75084
+993,872,"Home","93 Butterfield Center","Allen","Texas",75084
+994,709,"Home","1684 Crest Line Trail","Richardson","Texas",75085
+995,707,"Home","17946 Union Drive","Addison","Texas",75085
+996,152,"Home","299 Golf View Way","Allen","Texas",75085
+997,501,"Home","41 Emmet Point","Allen","Texas",75085
+998,195,"Home","4 Bunting Plaza","Addison","Texas",75085
+999,356,"Home","4 Havey Hill","Allen","Texas",75085
+1000,978,"Home","7637 Burrows Alley","Addison","Texas",75085
+1001,406,"Home","77379 Hermina Lane","Plano","Texas",75085
+1002,120,"Home","8101 Jenna Court","Dallas","Texas",75085
+1003,923,"Home","11950 Meadow Ridge Street","Addison","Texas",75086
+1004,773,"Home","120 Loomis Avenue","Dallas","Texas",75086
+1005,30,"Home","23 Kings Lane","Plano","Texas",75086
+1006,922,"Home","34866 Lindbergh Circle","Allen","Texas",75086
+1007,101,"Home","622 Iowa Terrace","Allen","Texas",75086
+1008,361,"Home","988 Vernon Avenue","Plano","Texas",75086
+1009,543,"Home","0179 Kensington Trail","Dallas","Texas",75087
+1010,974,"Home","17 Killdeer Parkway","Addison","Texas",75087
+1011,388,"Home","1 Continental Crossing","Dallas","Texas",75087
+1012,667,"Home","2674 Monument Crossing","Allen","Texas",75087
+1013,957,"Home","336 Petterle Street","Richardson","Texas",75087
+1014,916,"Home","5181 Hanson Avenue","Dallas","Texas",75087
+1015,533,"Home","6537 Colorado Hill","Plano","Texas",75087
+1016,119,"Home","0 Karstens Way","Allen","Texas",75088
+1017,395,"Home","44 Harbort Alley","Richardson","Texas",75088
+1018,692,"Home","70662 Oak Valley Terrace","Addison","Texas",75088
+1019,909,"Home","87470 Northfield Circle","Allen","Texas",75088
+1020,18,"Home","8 Fuller Road","Addison","Texas",75088
+1021,402,"Home","108 Pepper Wood Alley","Dallas","Texas",75089
+1022,368,"Home","12 Springs Drive","Allen","Texas",75089
+1023,996,"Home","13 Main Way","Addison","Texas",75089
+1024,532,"Home","217 Dayton Road","Plano","Texas",75089
+1025,244,"Home","33 Hintze Center","Richardson","Texas",75089
+1026,930,"Home","93 Lotheville Hill","Allen","Texas",75089
+1027,497,"Home","259 Fairview Center","Plano","Texas",75090
+1028,447,"Home","3990 Lakeland Plaza","Dallas","Texas",75090
+1029,288,"Home","82 Duke Street","Allen","Texas",75090
+1030,907,"Home","904 Fremont Way","Allen","Texas",75090
+1031,539,"Home","23 Blackbird Alley","Plano","Texas",75091
+1032,585,"Home","28 Cottonwood Circle","Addison","Texas",75091
+1033,157,"Home","3229 Huxley Hill","Richardson","Texas",75091
+1034,26,"Home","333 Scoville Hill","Allen","Texas",75091
+1035,574,"Home","45444 Sutherland Trail","Dallas","Texas",75091
+1036,381,"Home","47 Dakota Parkway","Dallas","Texas",75091
+1037,441,"Home","639 Del Mar Plaza","Dallas","Texas",75091
+1038,625,"Home","67 Cottonwood Plaza","Richardson","Texas",75091
+1039,579,"Home","7839 Carioca Drive","Allen","Texas",75091
+1040,507,"Home","28 Melvin Court","Allen","Texas",75092
+1041,586,"Home","66 Charing Cross Trail","Plano","Texas",75092
+1042,275,"Home","8359 Columbus Circle","Plano","Texas",75092
+1043,953,"Home","83 Mcguire Plaza","Plano","Texas",75092
+1044,378,"Home","98252 Manufacturers Parkway","Allen","Texas",75092
+1045,466,"Home","212 School Hill","Plano","Texas",75093
+1046,850,"Home","2791 Susan Circle","Richardson","Texas",75093
+1047,391,"Home","4216 Ridgeview Way","Plano","Texas",75093
+1048,542,"Home","516 Stoughton Plaza","Allen","Texas",75093
+1049,789,"Home","72330 Emmet Circle","Plano","Texas",75093
+1050,937,"Home","8 Granby Junction","Dallas","Texas",75093
+1051,138,"Home","207 Fulton Avenue","Dallas","Texas",75094
+1052,939,"Home","306 Graceland Drive","Addison","Texas",75094
+1053,565,"Home","5 Old Shore Way","Dallas","Texas",75094
+1054,759,"Home","77474 Anhalt Junction","Plano","Texas",75094
+1055,659,"Home","80253 Gulseth Circle","Richardson","Texas",75094
+1056,79,"Home","8735 Bultman Circle","Dallas","Texas",75094
+1057,103,"Home","8 Colorado Alley","Dallas","Texas",75094
+1058,54,"Home","0 Golf View Plaza","Dallas","Texas",75095
+1059,184,"Home","2 Nova Point","Addison","Texas",75095
+1060,254,"Home","440 Harper Parkway","Addison","Texas",75095
+1061,561,"Home","502 Dawn Center","Addison","Texas",75095
+1062,596,"Home","89 Kenwood Trail","Addison","Texas",75095
+1063,652,"Home","0859 Elmside Point","Dallas","Texas",75096
+1064,434,"Home","1703 Portage Place","Plano","Texas",75096
+1065,618,"Home","390 Garrison Place","Addison","Texas",75096
+1066,864,"Home","8 Stoughton Terrace","Addison","Texas",75096
+1067,300,"Home","58 Redwing Court","Plano","Texas",75097
+1068,145,"Home","6 Browning Point","Plano","Texas",75097
+1069,459,"Home","72116 Rockefeller Street","Allen","Texas",75097
+1070,124,"Home","7595 Rusk Crossing","Dallas","Texas",75097
+1071,982,"Home","0 Annamark Alley","Allen","Texas",75098
+1072,445,"Home","29509 Calypso Circle","Plano","Texas",75098
+1073,140,"Home","37 Hauk Avenue","Dallas","Texas",75098
+1074,444,"Home","39881 Vidon Center","Richardson","Texas",75098
+1075,610,"Home","43 Macpherson Terrace","Richardson","Texas",75098
+1076,126,"Home","67 Corscot Drive","Plano","Texas",75098
+1077,839,"Home","96 Miller Plaza","Richardson","Texas",75098
+1078,841,"Home","1225 Corscot Lane","Plano","Texas",75099
+1079,800,"Home","16 Acker Center","Addison","Texas",75099
+1080,985,"Home","46789 Moulton Crossing","Addison","Texas",75099
+1081,589,"Home","00220 Manufacturers Road","Dallas","Texas",0
+1082,998,"Home","008 Ryan Center","Plano","Texas",0
+1083,438,"Home","00 Aberg Trail","Dallas","Texas",0
+1084,36,"Home","016 Oak Valley Parkway","Dallas","Texas",0
+1085,529,"Home","018 Muir Circle","Plano","Texas",0
+1086,567,"Home","0273 Fairview Way","Addison","Texas",0
+1087,663,"Home","02 Onsgard Drive","Richardson","Texas",0
+1088,429,"Home","03062 Express Crossing","Richardson","Texas",0
+1089,823,"Home","05 Oxford Way","Richardson","Texas",0
+1090,6,"Home","06 Heffernan Center","Richardson","Texas",0
+1091,912,"Home","06 Reinke Point","Addison","Texas",0
+1092,320,"Home","07066 Monica Center","Richardson","Texas",0
+1093,721,"Home","0758 Kings Drive","Dallas","Texas",0
+1094,647,"Home","07 North Way","Richardson","Texas",0
+1095,558,"Home","0848 Bluestem Hill","Dallas","Texas",0
+1096,405,"Home","084 Thackeray Trail","Richardson","Texas",0
+1097,621,"Home","09440 Oak Junction","Richardson","Texas",0
+1098,980,"Home","0 Colorado Way","Richardson","Texas",0
+1099,680,"Home","0 Daystar Avenue","Richardson","Texas",0
+1100,415,"Home","0 Express Pass","Addison","Texas",0
+1101,346,"Home","0 Green Drive","Dallas","Texas",0
+1102,926,"Home","0 Haas Alley","Plano","Texas",0
+1103,261,"Home","0 Oakridge Center","Plano","Texas",0
+1104,233,"Home","0 Rockefeller Hill","Dallas","Texas",0
+1105,212,"Home","0 Stuart Road","Dallas","Texas",0
+1106,700,"Home","0 Summit Alley","Dallas","Texas",0
+1107,537,"Home","114 Mitchell Terrace","Addison","Texas",0
+1108,171,"Home","13 Cascade Crossing","Plano","Texas",0
+1109,661,"Home","14 4th Road","Allen","Texas",0
+1110,541,"Home","149 Talisman Court","Plano","Texas",0
+1111,743,"Home","156 Maryland Court","Dallas","Texas",0
+1112,436,"Home","15 Marquette Center","Allen","Texas",0
+1113,936,"Home","16689 Sunfield Center","Addison","Texas",0
+1114,245,"Home","16 Knutson Pass","Allen","Texas",0
+1115,858,"Home","16 Maryland Center","Richardson","Texas",0
+1116,880,"Home","17226 Arapahoe Parkway","Richardson","Texas",0
+1117,612,"Home","188 Summerview Way","Plano","Texas",0
+1118,19,"Home","1961 Division Hill","Addison","Texas",0
+1119,341,"Home","19 Forest Dale Pass","Plano","Texas",0
+1120,84,"Home","1 Anhalt Junction","Dallas","Texas",0
+1121,505,"Home","1 Graceland Center","Addison","Texas",0
+1122,296,"Home","1 Grasskamp Park","Dallas","Texas",0
+1123,471,"Home","1 Havey Hill","Plano","Texas",0
+1124,190,"Home","1 Jay Parkway","Plano","Texas",0
+1125,185,"Home","1 Kropf Circle","Addison","Texas",0
+1126,404,"Home","1 Ludington Circle","Richardson","Texas",0
+1127,958,"Home","1 Ludington Place","Addison","Texas",0
+1128,354,"Home","1 Namekagon Hill","Allen","Texas",0
+1129,338,"Home","1 Sachs Way","Addison","Texas",0
+1130,496,"Home","1 Stone Corner Terrace","Allen","Texas",0
+1131,182,"Home","2031 School Trail","Addison","Texas",0
+1132,920,"Home","20776 Wayridge Hill","Richardson","Texas",0
+1133,115,"Home","210 Victoria Hill","Allen","Texas",0
+1134,390,"Home","21338 Jenna Center","Plano","Texas",0
+1135,820,"Home","2171 Aberg Crossing","Addison","Texas",0
+1136,684,"Home","21 Brickson Park Plaza","Allen","Texas",0
+1137,298,"Home","2317 Annamark Alley","Dallas","Texas",0
+1138,530,"Home","23 Sullivan Alley","Addison","Texas",0
+1139,805,"Home","23 Waxwing Center","Dallas","Texas",0
+1140,575,"Home","2457 Fuller Court","Richardson","Texas",0
+1141,874,"Home","2498 Quincy Lane","Dallas","Texas",0
+1142,28,"Home","250 2nd Drive","Richardson","Texas",0
+1143,183,"Home","25234 Transport Drive","Plano","Texas",0
+1144,528,"Home","25867 Florence Avenue","Allen","Texas",0
+1145,915,"Home","26218 Prairieview Road","Allen","Texas",0
+1146,228,"Home","267 Russell Park","Addison","Texas",0
+1147,624,"Home","26 Gale Street","Richardson","Texas",0
+1148,99,"Home","27015 Nelson Parkway","Richardson","Texas",0
+1149,725,"Home","27 Continental Lane","Plano","Texas",0
+1150,222,"Home","27 Hovde Place","Addison","Texas",0
+1151,259,"Home","27 Lotheville Road","Dallas","Texas",0
+1152,814,"Home","28 7th Lane","Allen","Texas",0
+1153,636,"Home","28 Iowa Crossing","Addison","Texas",0
+1154,442,"Home","28 Kipling Pass","Addison","Texas",0
+1155,941,"Home","290 Londonderry Drive","Plano","Texas",0
+1156,314,"Home","2953 Scoville Drive","Addison","Texas",0
+1157,724,"Home","2 Dahle Hill","Allen","Texas",0
+1158,630,"Home","2 High Crossing Way","Richardson","Texas",0
+1159,468,"Home","2 Kinsman Avenue","Allen","Texas",0
+1160,509,"Home","2 Mandrake Lane","Addison","Texas",0
+1161,271,"Home","31 Summer Ridge Street","Dallas","Texas",0
+1162,780,"Home","32266 Bartillon Avenue","Plano","Texas",0
+1163,428,"Home","333 Montana Avenue","Richardson","Texas",0
+1164,531,"Home","3392 Sherman Circle","Richardson","Texas",0
+1165,483,"Home","33 Bluestem Center","Addison","Texas",0
+1166,538,"Home","344 Glacier Hill Point","Addison","Texas",0
+1167,959,"Home","35 Judy Street","Allen","Texas",0
+1168,293,"Home","36365 Esch Road","Dallas","Texas",0
+1169,802,"Home","3649 Judy Pass","Dallas","Texas",0
+1170,39,"Home","36 Alpine Drive","Richardson","Texas",0
+1171,548,"Home","3722 Summit Junction","Richardson","Texas",0
+1172,448,"Home","3757 Truax Park","Richardson","Texas",0
+1173,302,"Home","37 Mayer Way","Plano","Texas",0
+1174,324,"Home","38654 Novick Point","Plano","Texas",0
+1175,144,"Home","38977 Karstens Lane","Allen","Texas",0
+1176,208,"Home","3 Buell Avenue","Addison","Texas",0
+1177,108,"Home","3 Derek Alley","Richardson","Texas",0
+1178,597,"Home","3 Mcguire Circle","Plano","Texas",0
+1179,564,"Home","3 Pierstorff Lane","Dallas","Texas",0
+1180,711,"Home","3 Troy Road","Addison","Texas",0
+1181,205,"Home","41 Lakewood Terrace","Allen","Texas",0
+1182,781,"Home","42352 Fuller Way","Plano","Texas",0
+1183,908,"Home","43 Randy Avenue","Richardson","Texas",0
+1184,521,"Home","443 Gale Avenue","Dallas","Texas",0
+1185,265,"Home","4553 Moulton Center","Richardson","Texas",0
+1186,461,"Home","4574 Sachs Street","Allen","Texas",0
+1187,951,"Home","46513 Granby Lane","Plano","Texas",0
+1188,462,"Home","472 Merchant Street","Allen","Texas",0
+1189,929,"Home","4768 Bay Pass","Richardson","Texas",0
+1190,344,"Home","4899 Fremont Way","Addison","Texas",0
+1191,655,"Home","4985 Caliangt Trail","Allen","Texas",0
+1192,125,"Home","4 Elmside Park","Addison","Texas",0
+1193,745,"Home","4 Mallory Point","Richardson","Texas",0
+1194,31,"Home","4 Maple Trail","Richardson","Texas",0
+1195,897,"Home","5013 Ilene Hill","Dallas","Texas",0
+1196,433,"Home","50463 Novick Road","Richardson","Texas",0
+1197,229,"Home","50 Gale Pass","Plano","Texas",0
+1198,106,"Home","5221 Pearson Parkway","Addison","Texas",0
+1199,991,"Home","5228 Commercial Crossing","Allen","Texas",0
+1200,857,"Home","52 2nd Circle","Dallas","Texas",0
+1201,761,"Home","5236 Linden Park","Dallas","Texas",0
+1202,934,"Home","5271 Drewry Circle","Plano","Texas",0
+1203,648,"Home","5285 Moose Alley","Allen","Texas",0
+1204,248,"Home","5357 7th Road","Addison","Texas",0
+1205,835,"Home","54 Novick Avenue","Plano","Texas",0
+1206,518,"Home","55 Utah Way","Dallas","Texas",0
+1207,481,"Home","5652 Pierstorff Road","Plano","Texas",0
+1208,425,"Home","57306 Westridge Junction","Plano","Texas",0
+1209,994,"Home","583 Manufacturers Avenue","Richardson","Texas",0
+1210,349,"Home","5930 Clarendon Point","Allen","Texas",0
+1211,317,"Home","597 Schmedeman Point","Dallas","Texas",0
+1212,482,"Home","5 Graceland Place","Allen","Texas",0
+1213,309,"Home","5 Nobel Avenue","Addison","Texas",0
+1214,791,"Home","5 Schmedeman Plaza","Addison","Texas",0
+1215,476,"Home","60 Graedel Plaza","Dallas","Texas",0
+1216,876,"Home","60 Ridgeway Plaza","Addison","Texas",0
+1217,517,"Home","6133 Blaine Plaza","Plano","Texas",0
+1218,669,"Home","6141 Summit Crossing","Addison","Texas",0
+1219,767,"Home","6190 Sutherland Circle","Dallas","Texas",0
+1220,175,"Home","6235 Longview Pass","Plano","Texas",0
+1221,9,"Home","626 Orin Center","Addison","Texas",0
+1222,301,"Home","632 Graedel Place","Addison","Texas",0
+1223,772,"Home","63 Jenifer Parkway","Dallas","Texas",0
+1224,676,"Home","65146 Summer Ridge Crossing","Plano","Texas",0
+1225,168,"Home","66 Hallows Trail","Allen","Texas",0
+1226,758,"Home","66 Jenifer Avenue","Addison","Texas",0
+1227,67,"Home","67412 Sundown Parkway","Addison","Texas",0
+1228,241,"Home","67573 Judy Junction","Allen","Texas",0
+1229,255,"Home","6821 8th Pass","Dallas","Texas",0
+1230,549,"Home","6830 Lake View Hill","Allen","Texas",0
+1231,578,"Home","689 Maywood Trail","Dallas","Texas",0
+1232,673,"Home","692 Atwood Drive","Richardson","Texas",0
+1233,566,"Home","6 Gale Point","Richardson","Texas",0
+1234,797,"Home","6 Tomscot Point","Addison","Texas",0
+1235,553,"Home","6 Waywood Drive","Addison","Texas",0
+1236,196,"Home","7069 Victoria Court","Allen","Texas",0
+1237,555,"Home","70 Brown Place","Dallas","Texas",0
+1238,53,"Home","70 Gina Point","Richardson","Texas",0
+1239,460,"Home","71 Loftsgordon Hill","Dallas","Texas",0
+1240,178,"Home","7224 Daystar Pass","Allen","Texas",0
+1241,393,"Home","7260 Hudson Street","Richardson","Texas",0
+1242,910,"Home","72792 Donald Avenue","Richardson","Texas",0
+1243,552,"Home","73097 Autumn Leaf Street","Addison","Texas",0
+1244,559,"Home","75026 Straubel Lane","Allen","Texas",0
+1245,782,"Home","75395 Luster Plaza","Dallas","Texas",0
+1246,294,"Home","75 Red Cloud Trail","Richardson","Texas",0
+1247,629,"Home","7 5th Place","Plano","Texas",0
+1248,965,"Home","768 Brentwood Crossing","Allen","Texas",0
+1249,690,"Home","7746 Sommers Circle","Richardson","Texas",0
+1250,96,"Home","79761 Carioca Point","Allen","Texas",0
+1251,122,"Home","79 Buena Vista Drive","Allen","Texas",0
+1252,343,"Home","79 Onsgard Drive","Plano","Texas",0
+1253,221,"Home","7 Hagan Parkway","Richardson","Texas",0
+1254,150,"Home","7 Scott Place","Plano","Texas",0
+1255,161,"Home","7 Vermont Terrace","Allen","Texas",0
+1256,668,"Home","801 Stephen Point","Richardson","Texas",0
+1257,256,"Home","8067 Bayside Parkway","Plano","Texas",0
+1258,786,"Home","808 Weeping Birch Lane","Addison","Texas",0
+1259,329,"Home","811 Petterle Park","Addison","Texas",0
+1260,751,"Home","820 Becker Trail","Richardson","Texas",0
+1261,123,"Home","82883 Ohio Junction","Plano","Texas",0
+1262,424,"Home","828 Shoshone Drive","Plano","Texas",0
+1263,396,"Home","83453 Clemons Junction","Allen","Texas",0
+1264,454,"Home","834 Manitowish Center","Addison","Texas",0
+1265,316,"Home","83 Nova Park","Plano","Texas",0
+1266,885,"Home","849 1st Circle","Plano","Texas",0
+1267,984,"Home","853 5th Terrace","Richardson","Texas",0
+1268,870,"Home","8590 Cardinal Place","Richardson","Texas",0
+1269,211,"Home","85937 Burrows Pass","Addison","Texas",0
+1270,365,"Home","85 Mandrake Street","Allen","Texas",0
+1271,742,"Home","861 Lakewood Crossing","Allen","Texas",0
+1272,499,"Home","86658 Merchant Parkway","Richardson","Texas",0
+1273,440,"Home","86669 Kings Court","Addison","Texas",0
+1274,114,"Home","86 Welch Parkway","Allen","Texas",0
+1275,266,"Home","87 Warrior Center","Allen","Texas",0
+1276,223,"Home","88997 Summit Plaza","Addison","Texas",0
+1277,640,"Home","88 Harbort Alley","Addison","Texas",0
+1278,81,"Home","89640 Cody Terrace","Richardson","Texas",0
+1279,898,"Home","8 Blaine Pass","Addison","Texas",0
+1280,918,"Home","8 Dapin Center","Dallas","Texas",0
+1281,503,"Home","8 Morning Lane","Plano","Texas",0
+1282,319,"Home","8 Packers Lane","Plano","Texas",0
+1283,203,"Home","8 Sheridan Point","Allen","Texas",0
+1284,768,"Home","9022 Shopko Lane","Richardson","Texas",0
+1285,458,"Home","90777 Northwestern Street","Addison","Texas",0
+1286,23,"Home","9086 Sommers Crossing","Richardson","Texas",0
+1287,239,"Home","90 Canary Crossing","Richardson","Texas",0
+1288,201,"Home","90 Lakeland Pass","Richardson","Texas",0
+1289,584,"Home","92383 North Crossing","Addison","Texas",0
+1290,398,"Home","928 Karstens Place","Dallas","Texas",0
+1291,56,"Home","92 Elmside Way","Plano","Texas",0
+1292,35,"Home","9324 Onsgard Parkway","Dallas","Texas",0
+1293,263,"Home","94 Forest Park","Dallas","Texas",0
+1294,666,"Home","958 Prairieview Court","Allen","Texas",0
+1295,359,"Home","95 Mallory Point","Plano","Texas",0
+1296,550,"Home","963 Cottonwood Junction","Allen","Texas",0
+1297,282,"Home","96 Acker Way","Allen","Texas",0
+1298,635,"Home","9716 Michigan Plaza","Allen","Texas",0
+1299,439,"Home","97897 Nevada Place","Richardson","Texas",0
+1300,413,"Home","978 Buell Circle","Richardson","Texas",0
+1301,832,"Home","97 Holmberg Place","Addison","Texas",0
+1302,687,"Home","97 Hooker Point","Richardson","Texas",0
+1303,310,"Home","9940 Dunning Parkway","Addison","Texas",0
+1304,59,"Home","99570 Bayside Parkway","Allen","Texas",0
+1305,167,"Home","9976 Mccormick Terrace","Allen","Texas",0
+1306,931,"Home","9 Longview Pass","Richardson","Texas",0
+1307,856,"Home","9 Ohio Street","Plano","Texas",0
+1308,342,"Home","9 Schlimgen Trail","Allen","Texas",0
+1309,846,"Home","9 Stephen Court","Richardson","Texas",0
