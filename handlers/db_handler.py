@@ -42,7 +42,7 @@ class DBHandler:
 
     def delete(self, table_name, id):
         try:
-            db_primary_key = const.mapping[table_name]
+            db_primary_key = const.MAPPING_IDS[table_name]
             delete_data = "DELETE FROM %s where %s = %s" % (table_name,
                                                             db_primary_key, id)
             print("Deleting data", delete_data)
@@ -51,21 +51,27 @@ class DBHandler:
         except Exception as e:
             print(e)
 
-    def search(self, table_name):
+    def search(self, data_l):
         try:
-            search_data = "SELECT * from %s limit 2" % table_name
-            print("Searching data", search_data)
-            self.cursor.execute(search_data)
-            print(self.cursor.description)
-            for data in self.cursor:
-                print(data)
+            contact_id_l = list()
+            for data_s in data_l:
+                for table in const.TABLES:
+                    table_attr = table.upper() + '_ATTR'
+                    search_elem = '%' + data_s + '%'
+                    for attribute in const.MAPPING_TBL_ATTR.get(table_attr):
+                        query = 'select ContactID from %s where %s LIKE "% s"' \
+                                % (table, attribute, search_elem)
+                        self.cursor.execute(query)
+                        for data in self.cursor:
+                            contact_id_l.append(str(data[0]))
+            return list(set(contact_id_l))
         except Exception as e:
             print(e)
 
     def make_table(self, contact_id):
         try:
             table_data = dict()
-            for table in ["CONTACT", "ADDRESS", "PHONE", "DATE"]:
+            for table in const.TABLES:
                 query = "select * from %s where ContactID = %s" % (table,
                                                                    contact_id)
                 self.cursor.execute(query)
@@ -85,7 +91,8 @@ class DBHandler:
 if __name__ == "__main__":
     a = DBHandler()
     a.create_connect()
-    for i in range(2, 1000):
-        print(a.make_table(i))
+    l = a.search(['Lilian', 'Dallas'])
+    for d in l:
+        print(a.make_table(d))
     a.close_connect()
     exit(0)
