@@ -45,13 +45,10 @@ class DBHandler:
             update_data = "UPDATE %s set %s where %s=%s" % (table_name, data, const.MAPPING_IDS.get(table_name), id)
             print("Updating data", update_data)
             self.cursor.execute(update_data)
-            row_id = self.cursor.lastrowid
-            if table_name == 'CONTACT':
-                self.contactID = row_id
-            print(row_id)
             self.conn.commit()
         except Exception as e:
             print(e)
+            print("No Updated")
 
     def delete(self, table_name, id):
         try:
@@ -103,6 +100,6 @@ class DBHandler:
 if __name__ == "__main__":
     a = DBHandler()
     a.create_connect()
-    a.update('CONTACT', 10000, 'Fname="Sankalp"')
+    a.update('CONTACT', 1000, 'Fname="Sankalp"')
     a.close_connect()
 exit(0)
