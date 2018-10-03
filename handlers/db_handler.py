@@ -25,13 +25,26 @@ class DBHandler:
         except Exception as e:
             print(e)
 
-    def insert(self, table_name, values):
+    def create(self, table_name, values):
         try:
             add_data = "INSERT INTO %s %s VALUES %s" % (table_name,
                                                         const.CONTACT_VALUES,
                                                         values)
             print("Inserting data", add_data)
             self.cursor.execute(add_data)
+            row_id = self.cursor.lastrowid
+            if table_name == 'CONTACT':
+                self.contactID = row_id
+            print(row_id)
+            self.conn.commit()
+        except Exception as e:
+            print(e)
+
+    def update(self, table_name, id, data):
+        try:
+            update_data = "UPDATE %s set %s where %s=%s" % (table_name, data, const.MAPPING_IDS.get(table_name), id)
+            print("Updating data", update_data)
+            self.cursor.execute(update_data)
             row_id = self.cursor.lastrowid
             if table_name == 'CONTACT':
                 self.contactID = row_id
@@ -84,15 +97,12 @@ class DBHandler:
                     table_data.update({table: data_l})
             return table_data
         except Exception as e:
-            print("Here")
             print(e)
 
 
 if __name__ == "__main__":
     a = DBHandler()
     a.create_connect()
-    l = a.search(['Lilian', 'Dallas'])
-    for d in l:
-        print(a.make_table(d))
+    a.update('CONTACT', 10000, 'Fname="Sankalp"')
     a.close_connect()
-    exit(0)
+exit(0)
