@@ -1,6 +1,6 @@
 import mysql.connector
-
 import AddressBook.config.constants as const
+from AddressBook.data1.data_m import Data1
 
 
 class DBHandler:
@@ -87,11 +87,8 @@ class DBHandler:
                 self.cursor.execute(query)
                 data_l = list()
                 for data in self.cursor:
-                    data_l.append(data)
-                if len(data_l) == 1:
-                    table_data.update({table: data_l[0]})
-                else:
-                    table_data.update({table: data_l})
+                    data_l.append(list(data))
+                table_data.update({table: data_l})
             return table_data
         except Exception as e:
             print(e)
@@ -100,6 +97,9 @@ class DBHandler:
 if __name__ == "__main__":
     a = DBHandler()
     a.create_connect()
-    a.update('CONTACT', 1000, 'Fname="Sankalp"')
+    b = Data1(a)
+    table_data = b.update_table_data()
+    b.create_html(table_data)
     a.close_connect()
+
 exit(0)

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th, td {
+            text-align: left;
+            padding: 8px;
+            width: auto;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2
+        }
+
+        th {
+            background-color: #123456;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Address Book</h2>
+
+<table>
+    <tr>
+        <th>Name</th>
+        <th>Address</th>
+        <th>Date</th>
+        <th>Contact</th>
+    </tr>
+    #for $data in $data_l
+    <tr>
+        <td><b>$data.CONTACT</b></td>
+        #if $data.ADDRESS
+        <td>
+            #for $add_data in $data.ADDRESS
+            <b>$add_data.type</b> : $add_data.ADDRESS<br>
+            #end for
+        </td>
+        #else
+        <td></td>
+        #end if
+        #if $data.DATE
+        <td>
+            #for $date_data in $data.DATE
+            <b>$date_data.type</b> : $date_data.DATE<br>
+            #end for
+        </td>
+        #else
+        <td></td>
+        #end if
+        #if $data.PHONE
+        <td>
+            #for $ph_data in $data.PHONE
+            <b>$ph_data.type</b> : $ph_data.PHONE<br>
+            #end for
+        </td>
+        #else
+        <td></td>
+        #end if
+    </tr>
+    #end for
+</table>
+</body>
+</html>
