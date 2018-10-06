@@ -1,4 +1,5 @@
 import mysql.connector
+
 import AddressBook.config.constants as const
 from AddressBook.data.data_manipulation import DataManipulation
 
@@ -42,7 +43,8 @@ class DBHandler:
 
     def update(self, table_name, id, data):
         try:
-            update_data = "UPDATE %s set %s where %s=%s" % (table_name, data, const.MAPPING_IDS.get(table_name), id)
+            update_data = "UPDATE %s set %s where %s=%s" % (
+                table_name, data, const.MAPPING_IDS.get(table_name), id)
             print("Updating data", update_data)
             self.cursor.execute(update_data)
             self.conn.commit()
@@ -92,6 +94,23 @@ class DBHandler:
             return table_data
         except Exception as e:
             print(e)
+
+    # def fetch_table(self, contact_id):
+    #     try:
+    #         table_data_d = dict()
+    #         for table in const.TABLES:
+    #             query = "select * from %s where ContactID = %s" % (table, contact_id)
+    #             self.dbhandler_o.cursor.execute(query)
+    #             data_l = list()
+    #             for data in self.dbhandler_o.cursor:
+    #                 data_l.append(data)
+    #             if len(data_l) == 1:
+    #                 table_data_d.update({table: data_l[0]})
+    #             else:
+    #                 table_data_d.update({table: list(data_l)})
+    #         return table_data_d
+    #     except Exception as e:
+    #         print(e)
 
 
 if __name__ == "__main__":

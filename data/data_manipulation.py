@@ -1,27 +1,9 @@
 from Cheetah.Template import Template
-import AddressBook.config.constants as const
 
 
 class DataManipulation:
     def __init__(self, dbhandler_o):
         self.dbhandler_o = dbhandler_o
-
-    def fetch_table(self, contact_id):
-        try:
-            table_data1 = dict()
-            for table in const.TABLES:
-                query = "select * from %s where ContactID = %s" % (table, contact_id)
-                self.dbhandler_o.cursor.execute(query)
-                data_l = list()
-                for data in self.dbhandler_o.cursor:
-                    data_l.append(data)
-                if len(data_l) == 1:
-                    table_data1.update({table: data_l[0]})
-                else:
-                    table_data1.update({table: list(data_l)})
-            return table_data1
-        except Exception as e:
-            print(e)
 
     def update_table_data(self):
         data = self.dbhandler_o.search(['Delinda', 'Hill'])
@@ -41,7 +23,8 @@ class DataManipulation:
                 for add in address:
                     a_id = add[0]
                     add_type = add[2]
-                    ADDRESS = str(add[3]) + ', ' + str(add[4]) + ',' + str(add[5])
+                    ADDRESS = str(add[3]) + ', ' + str(add[4]) + ',' + str(
+                        add[5])
                     if add[6] != 0:
                         ADDRESS = ADDRESS + '-' + str(add[6])
                     d = {'type': add_type, 'ADDRESS': ADDRESS, 'ID': a_id}
@@ -51,7 +34,8 @@ class DataManipulation:
                 for p in phone:
                     p_id = p[0]
                     phone_type = p[1]
-                    number = '(' + str(p[3]) + ') ' + str(p[4] // 10000) + '-' + str(p[4] % 10000)
+                    number = '(' + str(p[3]) + ') ' + str(
+                        p[4] // 10000) + '-' + str(p[4] % 10000)
                     d = {'type': phone_type, 'PHONE': number, 'ID': p_id}
                     phone_l.append(d)
             date_l = list()
@@ -62,7 +46,8 @@ class DataManipulation:
                     dt_read = dt[3]
                     d = {'type': date_type, 'DATE': dt_read, 'ID': dt_id}
                     date_l.append(d)
-            final_d = {'CONTACT': NAME, 'ADDRESS': add_l, 'PHONE': phone_l, 'DATE': date_l}
+            final_d = {'CONTACT': NAME, 'ADDRESS': add_l, 'PHONE': phone_l,
+                       'DATE': date_l}
             final_data.append(final_d)
         return final_data
 
