@@ -34,19 +34,19 @@ class DataManipulation:
             if errors:
                 return errors, False
             contact_id = self.dbhandler_o.create('CONTACT', name_query)
-            if address_type:
+            if address:
                 for index in range(len(address_type)):
                     address_query = '(%s,"%s","%s","%s","%s",%s)' % (
                         contact_id, address_type[index], address[index],
                         city[index], state[index], zip_code[index])
                     self.dbhandler_o.create('ADDRESS', address_query)
-            if phone_type:
+            if areacode:
                 for index in range(len(phone_type)):
                     phone_query = '("%s",%s,%s,%s)' % (
                         phone_type[index], contact_id, areacode[index],
                         ph_number[index])
                     self.dbhandler_o.create('PHONE', phone_query)
-            if datetype:
+            if date:
                 for index in range(len(datetype)):
                     date_query = '(%s,"%s","%s")' % (
                         contact_id, datetype[index], date[index])
