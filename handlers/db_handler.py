@@ -1,6 +1,6 @@
 import mysql.connector
 import AddressBook.config.constants as const
-from AddressBook.data1.data_m import Data1
+from AddressBook.data.data_manipulation import DataManipulation
 
 
 class DBHandler:
@@ -97,7 +97,7 @@ class DBHandler:
 if __name__ == "__main__":
     a = DBHandler()
     a.create_connect()
-    b = Data1(a)
+    b = DataManipulation(a)
     table_data = b.update_table_data()
     b.create_html(table_data)
     a.close_connect()

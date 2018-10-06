@@ -2,18 +2,18 @@ from Cheetah.Template import Template
 import AddressBook.config.constants as const
 
 
-class Data1:
-    def __init__(self, a):
-        self.a = a
+class DataManipulation:
+    def __init__(self, dbhandler_o):
+        self.dbhandler_o = dbhandler_o
 
     def fetch_table(self, contact_id):
         try:
             table_data1 = dict()
             for table in const.TABLES:
                 query = "select * from %s where ContactID = %s" % (table, contact_id)
-                self.a.cursor.execute(query)
+                self.dbhandler_o.cursor.execute(query)
                 data_l = list()
-                for data in self.a.cursor:
+                for data in self.dbhandler_o.cursor:
                     data_l.append(data)
                 if len(data_l) == 1:
                     table_data1.update({table: data_l[0]})
@@ -24,10 +24,10 @@ class Data1:
             print(e)
 
     def update_table_data(self):
-        data = self.a.search(['Delinda', 'Hill'])
+        data = self.dbhandler_o.search(['Delinda', 'Hill'])
         data_l = list()
         for d in data:
-            data_l.append(self.a.make_table(d))
+            data_l.append(self.dbhandler_o.make_table(d))
         final_data = list()
         for elem in data_l:
             name = elem.get('CONTACT')[0]
@@ -67,7 +67,7 @@ class Data1:
         return final_data
 
     def create_html(self, table_data):
-        write_file = open('abc.html', 'w+')
+        write_file = open('show.html', 'w+')
         templateDef = open('table_template.html', 'r').read()
         t = Template(templateDef, searchList={'data_l': table_data})
         write_file.write(str(t))

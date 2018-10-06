@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="static/show.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+<body>
+
+<h2>Address Book</h2>
+<div class="topnav">
+    <div class="search-container">
+
+        <form action="test.html">
+            <input type="text" placeholder="Search.." name="search">
+            <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+    </div>
+    <div class="add-container">
+        <form action="contact_form.html">
+            <button type="submit">Add New Contact</button>
+        </form>
+    </div>
+</div>
+<div style="padding-top:16px">
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Date</th>
+            <th>Contact</th>
+        </tr>
+        #for $data in $data_l
+        <tr>
+            <td><b>$data.CONTACT</b></td>
+            #if $data.ADDRESS
+            <td>
+                #for $add_data in $data.ADDRESS
+                <b>$add_data.type</b> : $add_data.ADDRESS<br>
+                #end for
+            </td>
+            #else
+            <td></td>
+            #end if
+            #if $data.DATE
+            <td>
+                #for $date_data in $data.DATE
+                <b>$date_data.type</b> : $date_data.DATE<br>
+                #end for
+            </td>
+            #else
+            <td></td>
+            #end if
+            #if $data.PHONE
+            <td>
+                #for $ph_data in $data.PHONE
+                <b>$ph_data.type</b> : $ph_data.PHONE<br>
+                #end for
+            </td>
+            #else
+            <td></td>
+            #end if
+        </tr>
+        #end for
+    </table>
+</div>
+</body>
+</html>

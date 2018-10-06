@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        input[type=text], select, textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            resize: vertical;
+        }
+
+        input[type=number], select, textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            resize: vertical;
+        }
+
+        input[type=date], select {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            resize: vertical;
+        }
+
+        label {
+            padding: 12px 12px 12px 0;
+            display: inline-block;
+        }
+
+        input[type=submit] {
+            background-color: #123456;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            float: right;
+        }
+
+        input[type=submit]:hover {
+            background-color: #123456;
+        }
+
+        .container {
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            padding: 20px;
+        }
+
+        .container_sm {
+            border-radius: 1px;
+            background-color: #f2f2f2;
+            padding: 5px;
+        }
+
+        .col-25 {
+            float: left;
+            width: 25%;
+            margin-top: 6px;
+        }
+
+        .col-15 {
+            float: left;
+            width: 15%;
+            margin-top: 6px;
+        }
+
+        .col-75 {
+            float: left;
+            width: 75%;
+            margin-top: 6px;
+        }
+
+        /* Clear floats after the columns */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        @media screen and (max-width: 600px) {
+            .col-25, .col-75, input[type=submit] {
+                width: 100%;
+                margin-top: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<font color="123456">
+<h2>Contact Form</h2>
+</font>
+<div class="container">
+    <form action="/action_page.php">
+        <font color="123456">
+        <div class="row ">
+            <div class="col-25 container_sm">
+                <input type="text" id="fname" name="firstname" placeholder="First Name" required>
+            </div>
+            <div class="col-25 container_sm">
+                <input type="text" id="mname" name="middlename" placeholder="Middle Name">
+            </div>
+            <div class="col-25 container_sm">
+                <input type="text" id="lname" name="lastname" placeholder="Last Name" required>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-15">
+                <label for="address_type">Address Type</label>
+            </div>
+            <div class="col-15">
+                <select id="address_type" name="address_type">
+                    <option value="Home">HOME</option>
+                    <option value="Work">WORK</option>
+                    <option value="Other">OTHER</option>
+                </select>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-75 container_sm">
+                <textarea id="address" name="address" placeholder="Address"></textarea>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-25 container_sm">
+                <input type="text" id="city" name="city" placeholder="City" required>
+            </div>
+            <div class="col-25 container_sm">
+                <input type="text" id="state" name="state" placeholder="State" required>
+            </div>
+            <div class="col-25 container_sm">
+                <input type="number" id="zip" name="zip" placeholder="Zip" maxlength="5" size="5">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-15">
+                <label for="phone_type">Phone Type</label>
+            </div>
+            <div class="col-15">
+                <select id="phone_type" name="phone_type">
+                    <option value="Home">HOME</option>
+                    <option value="Work">WORK</option>
+                    <option value="Other">OTHER</option>
+                </select>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-25 container_sm">
+                <input type="number" id="areacode" name="areacode" placeholder="Area Code">
+            </div>
+            <div class="col-25 container_sm">
+                <input type="number" id="ph_number" name="ph_number" placeholder="Phone Number">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-15 container_sm">
+                <label for="datetype">Date Type</label>
+            </div>
+            <div class="col-15 container_sm">
+                <select id="datetype" name="datetype">
+                    <option value="Home">BIRTH DATE</option>
+                    <option value="Work">ANNIVERSARY</option>
+                    <option value="Other">OTHER</option>
+                </select>
+            </div>
+            <div class="col-25 container_sm">
+                <input type="date" id="date" name="date" placeholder="DATE">
+            </div>
+        </div>
+
+        <div class="row">
+            <input type="submit" value="Submit">
+        </div>
+        </font>
+    </form>
+</div>
+
+</body>
+</html>
