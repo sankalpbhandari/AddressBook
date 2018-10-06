@@ -1,5 +1,5 @@
 #!/usr/bin/python
-from flask import Flask, render_template, request, redirect
+from flask import Flask, render_template, request, redirect, flash
 
 from AddressBook.data.data_manipulation import DataManipulation
 from AddressBook.handlers.db_handler import DBHandler
@@ -23,8 +23,7 @@ def createtable():
 
 @app.route("/", methods=["GET"])
 def showtable():
-    message = None
-    return render_template("show.html", messages=message)
+    return render_template("show.html")
 
 
 @app.route("/contact_form.html", methods=["GET", "POST"])
@@ -34,6 +33,7 @@ def contact_form():
         contact_form_d = dict(request.form)
         errors, success = data_m_o.validate_form_data(contact_form_d)
         if success:
+            flash("Successfully created Contact")
             return redirect('/')
     return render_template("contact_form.html", errors=errors)
 

@@ -1,9 +1,13 @@
 <!DOCTYPE html>
 <html>
+<title>My Address Book</title>
 <head>
     <link rel="stylesheet" href="../static/show.css">
     <link rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
 </head>
 <body>
 
@@ -22,11 +26,13 @@
         </form>
     </div>
 </div>
+{% with messages = get_flashed_messages() %}
 {% if messages %}
-<div class="alert-success alert container">
-      <strong>Success!</strong> You have successfully added the contact.
+<div class="alert-success alert search-container">
+    <strong>Success!</strong> You have successfully added the contact.
 </div>
 {% endif %}
+{% endwith %}
 
 <div style="padding-top:16px">
     <table>
