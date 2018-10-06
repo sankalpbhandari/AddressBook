@@ -5,10 +5,12 @@ class DataManipulation:
     def __init__(self, dbhandler_o):
         self.dbhandler_o = dbhandler_o
 
-    def update_table_data(self):
-        data = self.dbhandler_o.search(['Delinda', 'Hill'])
+    def update_table_data(self, search_query=None):
+        if search_query is None:
+            search_query = ['a']
+        contact_id_l = self.dbhandler_o.search(search_query)
         data_l = list()
-        for d in data:
+        for d in contact_id_l:
             data_l.append(self.dbhandler_o.make_table(d))
         final_data = list()
         for elem in data_l:
@@ -52,8 +54,8 @@ class DataManipulation:
         return final_data
 
     def create_html(self, table_data):
-        write_file = open('show.html', 'w+')
-        templateDef = open('table_template.html', 'r').read()
+        write_file = open('templates/show.html', 'w+')
+        templateDef = open('templates/table_template.html', 'r').read()
         t = Template(templateDef, searchList={'data_l': table_data})
         write_file.write(str(t))
         write_file.close()

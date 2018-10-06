@@ -1,7 +1,6 @@
 import mysql.connector
 
 import AddressBook.config.constants as const
-from AddressBook.data.data_manipulation import DataManipulation
 
 
 class DBHandler:
@@ -112,13 +111,12 @@ class DBHandler:
     #     except Exception as e:
     #         print(e)
 
-
-if __name__ == "__main__":
-    a = DBHandler()
-    a.create_connect()
-    b = DataManipulation(a)
-    table_data = b.update_table_data()
-    b.create_html(table_data)
-    a.close_connect()
-
-exit(0)
+# if __name__ == "__main__":
+#     a = DBHandler()
+#     a.create_connect()
+#     b = DataManipulation(a)
+#     table_data = b.update_table_data()
+#     b.create_html(table_data)
+#     a.close_connect()
+#
+# exit(0)
