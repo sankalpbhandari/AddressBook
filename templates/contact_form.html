@@ -16,8 +16,8 @@
 </head>
 <body>
 {% if errors %}
-<div class="alert-danger alert container">
-    <a class="close" href="#">×</a>
+<div class="alert alert-danger alert-dismissible container">
+    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
     <ul>
         {%- for msg in errors %}
         <li>{{ msg }}</li>
