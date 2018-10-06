@@ -5,6 +5,56 @@ class DataManipulation:
     def __init__(self, dbhandler_o):
         self.dbhandler_o = dbhandler_o
 
+    def validate_form_data(self, form_data_d):
+        try:
+            errors = list()
+            firstname = form_data_d.get('firstname', None)[0]
+            middlename = form_data_d.get('middlename', None)[0]
+            lastname = form_data_d.get('lastname', None)[0]
+            address = form_data_d.get('address', None)
+            address_type = form_data_d.get('address_type', None)
+            city = form_data_d.get('city', None)
+            zip_code = form_data_d.get('zip', None)
+            state = form_data_d.get('state', None)
+            date = form_data_d.get('date', None)
+            datetype = form_data_d.get('datetype', None)
+            areacode = form_data_d.get('areacode', None)
+            ph_number = form_data_d.get('ph_number', None)
+            phone_type = form_data_d.get('phone_type', None)
+            name_query = '("%s","%s","%s")' % (firstname, middlename, lastname)
+            for z in zip_code:
+                if len(str(z)) != 5:
+                    errors.append("Please check the Zip Code")
+            for a in areacode:
+                if len(str(a)) != 3:
+                    errors.append("Please check the Area Code")
+            for p in ph_number:
+                if len(str(p)) != 7:
+                    errors.append("Please check the Phone Number")
+            if errors:
+                return errors, False
+            contact_id = self.dbhandler_o.create('CONTACT', name_query)
+            if address_type:
+                for index in range(len(address_type)):
+                    address_query = '(%s,"%s","%s","%s","%s",%s)' % (
+                        contact_id, address_type[index], address[index],
+                        city[index], state[index], zip_code[index])
+                    self.dbhandler_o.create('ADDRESS', address_query)
+            if phone_type:
+                for index in range(len(phone_type)):
+                    phone_query = '("%s",%s,%s,%s)' % (
+                        phone_type[index], contact_id, areacode[index],
+                        ph_number[index])
+                    self.dbhandler_o.create('PHONE', phone_query)
+            if datetype:
+                for index in range(len(datetype)):
+                    date_query = '(%s,"%s","%s")' % (
+                        contact_id, datetype[index], date[index])
+                    self.dbhandler_o.create('DATE', date_query)
+            return None, True
+        except Exception as e:
+            return [e], False
+
     def update_table_data(self, search_query=None):
         if search_query is None:
             search_query = ['a']

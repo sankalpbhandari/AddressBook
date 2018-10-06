@@ -1,9 +1,11 @@
+#!/usr/bin/python
 from flask import Flask, render_template, request, redirect
 
 from AddressBook.data.data_manipulation import DataManipulation
 from AddressBook.handlers.db_handler import DBHandler
 
 app = Flask(__name__)
+app.secret_key = b'MyAddressBook'
 
 dbhandler_o = DBHandler()
 conn = dbhandler_o.create_connect()
@@ -21,12 +23,19 @@ def createtable():
 
 @app.route("/", methods=["GET"])
 def showtable():
-    return render_template("show.html")
+    message = None
+    return render_template("show.html", messages=message)
 
 
-@app.route("/contact_form.html", methods=["POST", "GET"])
+@app.route("/contact_form.html", methods=["GET", "POST"])
 def contact_form():
-    return render_template("contact_form.html")
+    errors = None
+    if request.method == 'POST':
+        contact_form_d = dict(request.form)
+        errors, success = data_m_o.validate_form_data(contact_form_d)
+        if success:
+            return redirect('/')
+    return render_template("contact_form.html", errors=errors)
 
 
 if __name__ == '__main__':
@@ -37,4 +46,3 @@ if __name__ == '__main__':
         app.run()
     except Exception as e:
         print e
-        print "ShutDown"

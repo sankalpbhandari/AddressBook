@@ -11,10 +11,11 @@ MAPPING_IDS = {"CONTACT": "ContactID", "ADDRESS": "AddressID",
 TABLES = ["CONTACT", "ADDRESS", "PHONE", "DATE"]
 
 # The attributes of the table
-CONTACT_VALUES = '(Fname,Mname,Lname)'
-ADDRESS_VALUES = '(ContactID,Address_type,Address,City,State,Zip)'
-DATE_VALUES = '(ContactID,DateType,Date)'
-PHONE_VALUES = '(PhoneType,ContactID,AreaCode,Number)'
+MAPPING_TBL_VALUES = {
+    "CONTACT_VALUES": '(Fname,Mname,Lname)',
+    "ADDRESS_VALUES": '(ContactID,Address_type,Address,City,State,Zip)',
+    "DATE_VALUES": '(ContactID,DateType,Date)',
+    "PHONE_VALUES": '(PhoneType,ContactID,AreaCode,Number)'}
 
 MAPPING_TBL_ATTR = {
     'CONTACT_ATTR': ['Fname', 'Mname', 'Lname'], 'ADDRESS_ATTR': [

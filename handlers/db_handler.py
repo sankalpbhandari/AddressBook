@@ -27,36 +27,34 @@ class DBHandler:
 
     def create(self, table_name, values):
         try:
-            add_data = "INSERT INTO %s %s VALUES %s" % (table_name,
-                                                        const.CONTACT_VALUES,
-                                                        values)
-            print("Inserting data", add_data)
+            table_values = table_name+'_VALUES'
+            add_data = "INSERT INTO %s %s VALUES %s" % (
+                table_name, const.MAPPING_TBL_VALUES.get(table_values),
+                values)
             self.cursor.execute(add_data)
             row_id = self.cursor.lastrowid
             if table_name == 'CONTACT':
                 self.contactID = row_id
-            print(row_id)
             self.conn.commit()
+            return row_id
         except Exception as e:
             print(e)
+            raise Exception(e)
 
     def update(self, table_name, id, data):
         try:
             update_data = "UPDATE %s set %s where %s=%s" % (
                 table_name, data, const.MAPPING_IDS.get(table_name), id)
-            print("Updating data", update_data)
             self.cursor.execute(update_data)
             self.conn.commit()
         except Exception as e:
             print(e)
-            print("No Updated")
 
     def delete(self, table_name, id):
         try:
             db_primary_key = const.MAPPING_IDS[table_name]
             delete_data = "DELETE FROM %s where %s = %s" % (table_name,
                                                             db_primary_key, id)
-            print("Deleting data", delete_data)
             self.cursor.execute(delete_data)
             self.conn.commit()
         except Exception as e:
@@ -94,29 +92,3 @@ class DBHandler:
         except Exception as e:
             print(e)
 
-    # def fetch_table(self, contact_id):
-    #     try:
-    #         table_data_d = dict()
-    #         for table in const.TABLES:
-    #             query = "select * from %s where ContactID = %s" % (table, contact_id)
-    #             self.dbhandler_o.cursor.execute(query)
-    #             data_l = list()
-    #             for data in self.dbhandler_o.cursor:
-    #                 data_l.append(data)
-    #             if len(data_l) == 1:
-    #                 table_data_d.update({table: data_l[0]})
-    #             else:
-    #                 table_data_d.update({table: list(data_l)})
-    #         return table_data_d
-    #     except Exception as e:
-    #         print(e)
-
-# if __name__ == "__main__":
-#     a = DBHandler()
-#     a.create_connect()
-#     b = DataManipulation(a)
-#     table_data = b.update_table_data()
-#     b.create_html(table_data)
-#     a.close_connect()
-#
-# exit(0)
