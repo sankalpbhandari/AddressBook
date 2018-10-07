@@ -31,6 +31,7 @@ class DBHandler:
             add_data = "INSERT INTO %s %s VALUES %s" % (
                 table_name, const.MAPPING_TBL_VALUES.get(table_values),
                 values)
+            print add_data
             self.cursor.execute(add_data)
             row_id = self.cursor.lastrowid
             if table_name == 'CONTACT':
@@ -45,6 +46,7 @@ class DBHandler:
         try:
             update_data = "UPDATE %s set %s where %s=%s" % (
                 table_name, data, const.MAPPING_IDS.get(table_name), id)
+            print update_data
             self.cursor.execute(update_data)
             self.conn.commit()
         except Exception as e:
@@ -55,6 +57,7 @@ class DBHandler:
             db_primary_key = const.MAPPING_IDS[table_name]
             delete_data = "DELETE FROM %s where %s = %s" % (table_name,
                                                             db_primary_key, id)
+            print delete_data
             self.cursor.execute(delete_data)
             self.conn.commit()
         except Exception as e:

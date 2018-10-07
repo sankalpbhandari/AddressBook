@@ -32,18 +32,18 @@
             <div class="row ">
                 <div class="col-25 container_sm">
                     <input type="text" id="fname" name="firstname"
-                           placeholder="First Name" value=$data_l.CONTACT[0][1]
-                           required>
+                           placeholder="First Name"
+                           value="$data_l.CONTACT[0][1]" required>
                 </div>
                 <div class="col-25 container_sm">
                     <input type="text" id="mname" name="middlename"
                            placeholder="Middle Name"
-                           value=$data_l.CONTACT[0][2]>
+                           value="$data_l.CONTACT[0][2]">
                 </div>
                 <div class="col-25 container_sm">
                     <input type="text" id="lname" name="lastname"
                            placeholder="Last Name" required value=
-                                   $data_l.CONTACT[0][3]>
+                                   "$data_l.CONTACT[0][3]">
                     <input type="hidden" value=$data_l.CONTACT[0][0]
                            name="contact_id"/>
                 </div>
@@ -87,11 +87,11 @@
                     <div class="row"></div>
                     <div class="col-25 container_sm">
                         <input type="text" name="city"
-                               placeholder="City" value=$add[4]>
+                               placeholder="City" value="$add[4]">
                     </div>
                     <div class="col-25 container_sm">
                         <input type="text" name="state"
-                               placeholder="State" value=$add[5]>
+                               placeholder="State" value="$add[5]">
                     </div>
                     <div class="col-25 container_sm">
                         <input type="number" name="zip"
@@ -335,7 +335,6 @@
                                    placeholder="DATE" value=$dt[3]>
                         </div>
                         <input type="hidden" value=$dt[0] name="dt_id"/>
-
                     </div>
                 </div>
                 #end for
@@ -362,40 +361,35 @@
                     </div>
                 </div>
                 #end if
-                <div style="display: none" id="date_div">
-                    <input type="hidden" value=0 name="dt_id"/>
-
+                <div id="date_div"  style="display: none">
                     <div class="row">
                         <div class="col-15 container_sm">
                             <label for="datetype">Date Type</label>
                         </div>
                         <div class="col-25 container_sm">
-                            <div class="col-25 container_sm">
-                                <select id="datetype" name="datetype">
-                                    <option value="Birth Date">BIRTH DATE
-                                    </option>
-                                    <option value="Anniversary">ANNIVERSARY
-                                    </option>
-                                    <option value="Other">OTHER</option>
-                                </select>
-                            </div>
-                            <button type="button" class="button"
-                                    onclick="remove(this);">-
-                            </button>
-                            <div class="col-25 container_sm">
-                                <input type="date" name="date"
-                                       placeholder="DATE">
-                            </div>
+                            <select id="datetype" name="datetype">
+                                <option value="Birth Date">BIRTH DATE</option>
+                                <option value="Anniversary">ANNIVERSARY</option>
+                                <option value="Other">OTHER</option>
+                            </select>
+                        </div>
+                        <button type="button" class="button"
+                                onclick="remove(this);">-
+                        </button>
+                        <div class="col-25 container_sm">
+                            <input type="date" name="date"
+                                   placeholder="DATE">
                         </div>
                     </div>
+                </div>
 
-                </div>
-                <div class="row">
-                    <input type="submit" value="Submit">
-                    <input type="button" id="searchbar" value="Cancel"
-                           onclick="location.href='/'">
-                    <input type="reset" value="Reset">
-                </div>
+            </div>
+            <div class="row">
+                <input type="submit" value="Submit">
+                <input type="button" id="searchbar" value="Cancel"
+                       onclick="location.href='/'">
+                <input type="reset" value="Reset">
+            </div>
         </font>
     </form>
 </div>
