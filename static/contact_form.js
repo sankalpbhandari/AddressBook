@@ -21,7 +21,6 @@ function removeph(elem) {
 }
 
 function add_addfn() {
-    console.log("Here");
     num++;
     var $cloned = $add_div.clone();
     $cloned.attr('id', $add_div.attr('id') + '_' + num);
@@ -32,7 +31,6 @@ function add_addfn() {
 }
 
 function add_phfn() {
-    console.log("Here");
     num++;
     var $cloned = $ph_div.clone();
     $cloned.attr('id', $ph_div.attr('id') + '_' + num);
@@ -43,7 +41,6 @@ function add_phfn() {
 }
 
 function add_datefn() {
-    console.log("Here");
     num++;
     var $cloned = $date_div.clone();
     $cloned.attr('id', $date_div.attr('id') + '_' + num);
