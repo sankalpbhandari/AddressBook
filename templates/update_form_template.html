@@ -64,17 +64,17 @@
                             <option value="Home" selected>HOME</option>
                             #else
                             <option value="Home">HOME</option>
-                            #endif
+                            #end if
                             #if $add[2] == "Work"
                             <option value="Work" selected>WORK</option>
                             #else
                             <option value="Work">WORK</option>
-                            #endif
+                            #end if
                             #if $add[2] == "Other"
                             <option value="Other" selected>OTHER</option>
                             #else
                             <option value="Other">OTHER</option>
-                            #endif
+                            #end if
                         </select>
                     </div>
                     <button type="button" onclick="remove(this);"
@@ -170,7 +170,6 @@
                     </div>
                     <div class="row"></div>
                 </div>
-
             </div>
 
             <button type="button" class="button" id="add_ph"
@@ -190,17 +189,17 @@
                                 <option value="Home" selected>HOME</option>
                                 #else
                                 <option value="Home">HOME</option>
-                                #endif
+                                #end if
                                 #if $ph[1] == "Work"
                                 <option value="Work" selected>WORK</option>
                                 #else
                                 <option value="Work">WORK</option>
-                                #endif
+                                #end if
                                 #if $ph[1] == "Other"
                                 <option value="Other" selected>OTHER</option>
                                 #else
                                 <option value="Other">OTHER</option>
-                                #endif
+                                #end if
                             </select>
                         </div>
                         <button type="button" class="button"
@@ -301,19 +300,19 @@
                                 </option>
                                 #else
                                 <option value="Home">HOME</option>
-                                #endif
+                                #end if
                                 #if $dt[2] == "ANNIVERSARY"
                                 <option value="ANNIVERSARY" selected>
                                     ANNIVERSARY
                                 </option>
                                 #else
                                 <option value="Work">WORK</option>
-                                #endif
+                                #end if
                                 #if $dt[2] == "OTHER"
                                 <option value="OTHER" selected>OTHER</option>
                                 #else
                                 <option value="Other">OTHER</option>
-                                #endif
+                                #end if
                             </select>
                         </div>
                         <button type="button" class="button"

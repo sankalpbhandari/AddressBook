@@ -111,9 +111,11 @@ class DataManipulation:
         except Exception as e:
             return [e], False
 
-    def create_html(self, table_data):
-        write_file = open('templates/show.html', 'w+')
-        templateDef = open('templates/table_template.html', 'r').read()
+    def create_html(self, filename, template, table_data):
+        file_path = 'templates/'+filename
+        template_path = 'templates/'+template
+        write_file = open(file_path, 'w+')
+        templateDef = open(template_path, 'r').read()
         t = Template(templateDef, searchList={'data_l': table_data})
         write_file.write(str(t))
         write_file.close()
