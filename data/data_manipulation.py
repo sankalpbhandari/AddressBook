@@ -89,6 +89,7 @@ class DataManipulation:
         name_query = 'Fname="%s",Mname="%s",Lname="%s"' % (
             firstname, middlename, lastname)
         self.dbhandler_o.update('CONTACT', contact_id, name_query)
+
         old_add_id, old_ph_id, old_dt_id = [], [], []
         for add in old_data['ADDRESS']:
             old_add_id.append(add[0])
@@ -96,6 +97,8 @@ class DataManipulation:
             old_ph_id.append(phone[0])
         for date in old_data['DATE']:
             old_dt_id.append(date[0])
+        print "+++a+++p+++d+++", old_add_id, old_ph_id, old_dt_id
+        print form_data_d['add_id'], form_data_d['ph_id'], form_data_d['dt_id']
         for index in range(len(form_data_d['add_id'])):
             add_id = int(form_data_d['add_id'][index])
             if address[index]:
@@ -122,7 +125,7 @@ class DataManipulation:
                         phone_type[index], contact_id, areacode[index],
                         ph_number[index])
                     self.dbhandler_o.create('PHONE', phone_query)
-                elif ph_id not in old_add_id:
+                elif ph_id not in old_ph_id:
                     self.dbhandler_o.delete('PHONE', ph_id)
                 else:
                     phone_query = 'PhoneType="%s",AreaCode=%s,Number=%s' % (
@@ -136,13 +139,12 @@ class DataManipulation:
                     date_query = '(%s,"%s","%s")' % (
                         contact_id, datetype[index], date[index])
                     self.dbhandler_o.create('DATE', date_query)
-                elif dt_id not in old_add_id:
+                elif dt_id not in old_dt_id:
                     self.dbhandler_o.delete('DATE', dt_id)
                 else:
                     date_query = 'DateType="%s",Date="%s"' % (
                         datetype[index], date[index])
                     self.dbhandler_o.update('DATE', dt_id, date_query)
-
         return None, True
 
     def update_table_data(self, search_query=None):
