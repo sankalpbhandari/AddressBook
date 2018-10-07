@@ -59,6 +59,7 @@ class DBHandler:
             self.conn.commit()
         except Exception as e:
             print(e)
+            raise Exception("Cannot delete the data")
 
     def search(self, data_l):
         try:

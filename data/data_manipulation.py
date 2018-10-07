@@ -34,20 +34,20 @@ class DataManipulation:
             if errors:
                 return errors, False
             contact_id = self.dbhandler_o.create('CONTACT', name_query)
-            if address:
-                for index in range(len(address_type)):
+            for index in range(len(address_type)):
+                if address[index]:
                     address_query = '(%s,"%s","%s","%s","%s",%s)' % (
                         contact_id, address_type[index], address[index],
                         city[index], state[index], zip_code[index])
                     self.dbhandler_o.create('ADDRESS', address_query)
-            if areacode:
-                for index in range(len(phone_type)):
+            for index in range(len(phone_type)):
+                if areacode[index]:
                     phone_query = '("%s",%s,%s,%s)' % (
                         phone_type[index], contact_id, areacode[index],
                         ph_number[index])
                     self.dbhandler_o.create('PHONE', phone_query)
-            if date:
-                for index in range(len(datetype)):
+            for index in range(len(datetype)):
+                if date[index]:
                     date_query = '(%s,"%s","%s")' % (
                         contact_id, datetype[index], date[index])
                     self.dbhandler_o.create('DATE', date_query)
@@ -69,6 +69,7 @@ class DataManipulation:
             phone = elem.get('PHONE')
             date = elem.get('DATE')
             name = [str(n).replace('None', ' ') for n in name]
+            ID = str(name[0])
             NAME = str(name[1]) + ' ' + str(name[2]) + ' ' + str(name[3])
             add_l = list()
             if address:
@@ -99,9 +100,16 @@ class DataManipulation:
                     d = {'type': date_type, 'DATE': dt_read, 'ID': dt_id}
                     date_l.append(d)
             final_d = {'CONTACT': NAME, 'ADDRESS': add_l, 'PHONE': phone_l,
-                       'DATE': date_l}
+                       'DATE': date_l, 'ID': ID}
             final_data.append(final_d)
         return final_data
+
+    def delete_record(self, id):
+        try:
+            self.dbhandler_o.delete('CONTACT', id)
+            return None, True
+        except Exception as e:
+            return [e], False
 
     def create_html(self, table_data):
         write_file = open('templates/show.html', 'w+')

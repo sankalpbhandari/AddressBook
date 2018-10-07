@@ -26,6 +26,18 @@ def showtable():
     return render_template("show.html")
 
 
+@app.route("/delete_data.html", methods=["POST"])
+def delete_data():
+    delete_id = request.form.get('user_id')
+    print delete_id
+    errors, success = data_m_o.delete_record(delete_id)
+    if success:
+        flash("Successfully deleted Contact")
+        return redirect('/')
+    else:
+        flash("Error deleting Contact: %s" % errors, "error")
+    return None
+
 @app.route("/contact_form.html", methods=["GET", "POST"])
 def contact_form():
     errors = None

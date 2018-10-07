@@ -34,10 +34,21 @@
 <div class="alert alert-success alert-dismissible search-container">
     <a href="#" class="close" data-dismiss="alert"
        aria-label="close">&times;</a>
-    <strong>Success!</strong> You have successfully added the contact.
+    <strong>Success!</strong> {{messages[0]}}.
 </div>
 {% endif %}
 {% endwith %}
+
+{% with messages = get_flashed_messages(category_filter=["error"]) %}
+{% if messages %}
+<div class="alert alert-danger alert-dismissible search-container">
+    <a href="#" class="close" data-dismiss="alert"
+       aria-label="close">&times;</a>
+    <strong>Error!</strong> {{messages}}.
+</div>
+{% endif %}
+{% endwith %}
+
 
 <div style="padding-top:16px">
     <table>
@@ -46,6 +57,7 @@
             <th>Address</th>
             <th>Date</th>
             <th>Contact</th>
+            <th></th>
         </tr>
         #for $data in $data_l
         <tr>
@@ -77,6 +89,15 @@
             #else
             <td></td>
             #end if
+            <td>
+                <form action="/delete_data.html" method="post">
+                <div class="del-container">
+                    <input type="submit" onclick="return confirm('Are you sure you want to delete?');" href="/"
+                           placeholder="-" value="Delete" name="id">
+                    <input type="hidden" value=$data.ID name="user_id" />
+                </div>
+                </form>
+            </td>
         </tr>
         #end for
     </table>
