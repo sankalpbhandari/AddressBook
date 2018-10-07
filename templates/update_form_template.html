@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<!doctype html>
+<title>My Address Book</title>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../static/contact_form.css">
+    <script src="../static/jquery.js"></script>
+    <script src="../static/update_form.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <h1 style="color: #123456; font-style: italic">Update Contact Form</h1>
+</head>
+<body>
+{% if errors %}
+<div class="alert alert-danger alert-dismissible container">
+    <a href="#" class="close" data-dismiss="alert"
+       aria-label="close">&times;</a>
+    <ul>
+        {%- for msg in errors %}
+        <li>{{ msg }}</li>
+        {% endfor -%}
+    </ul>
+</div>
+{% endif %}
+<div class="container">
+    <form action="/update_form.html" method="post">
+        <font color="123456">
+            <div class="row ">
+                <div class="col-25 container_sm">
+                    <input type="text" id="fname" name="firstname"
+                           placeholder="First Name" value=$data_l.CONTACT[0][1]
+                           required>
+                </div>
+                <div class="col-25 container_sm">
+                    <input type="text" id="mname" name="middlename"
+                           placeholder="Middle Name"
+                           value=$data_l.CONTACT[0][2]>
+                </div>
+                <div class="col-25 container_sm">
+                    <input type="text" id="lname" name="lastname"
+                           placeholder="Last Name" required value=
+                                   $data_l.CONTACT[0][3]>
+                    <input type="hidden" value=$data_l.CONTACT[0][0]
+                           name="contact_id"/>
+                </div>
+            </div>
+            <button type="button" class="button" id="add_add"
+                    onclick="add_addfn();">+
+            </button>
+            <div id="address_div1">
+                #if $data_l.ADDRESS
+                #for $add in $data_l.ADDRESS
+                <div>
+                    <div class="col-15">
+                        <label for="address_type">Address Type</label>
+                    </div>
+                    <div class="col-15">
+                        <select id="address_type" name="address_type">
+                            <option value="Home">HOME</option>
+                            <option value="Work">WORK</option>
+                            <option value="Other">OTHER</option>
+                        </select>
+                    </div>
+                    <button type="button" onclick="remove(this);"
+                            class="button">-
+                    </button>
+                    <div class="col-75 container_sm">
+                        <input type="text" name="address"
+                               placeholder="Street Address" value="$add[3]">
+                    </div>
+                    <div class="row"></div>
+                    <div class="col-25 container_sm">
+                        <input type="text" name="city"
+                               placeholder="City" required value=$add[4]>
+                    </div>
+                    <div class="col-25 container_sm">
+                        <input type="text" name="state"
+                               placeholder="State" required value=$add[5]>
+                    </div>
+                    <div class="col-25 container_sm">
+                        <input type="number" name="zip"
+                               placeholder="Zip" maxlength="5" size="5"
+                               value=$add[6]>
+                    </div>
+                    <input type="hidden" value=$add[0] name="add_id"/>
+                    <div class="row"></div>
+                </div>
+                #end for
+                #else
+                <div>
+                    <div class="col-15">
+                        <label for="address_type">Address Type</label>
+                    </div>
+                    <div class="col-15">
+                        <select id="address_type" name="address_type">
+                            <option value="Home">HOME</option>
+                            <option value="Work">WORK</option>
+                            <option value="Other">OTHER</option>
+                        </select>
+                    </div>
+                    <button type="button" onclick="remove(this);"
+                            class="button">-
+                    </button>
+                    <div class="col-75 container_sm">
+                        <input type="text" id="address" name="address"
+                               placeholder="Street Address">
+                    </div>
+                    <div class="row"></div>
+                    <div class="col-25 container_sm">
+                        <input type="text" id="city" name="city"
+                               placeholder="City" required>
+                    </div>
+                    <div class="col-25 container_sm">
+                        <input type="text" id="state" name="state"
+                               placeholder="State" required>
+                    </div>
+                    <div class="col-25 container_sm">
+                        <input type="number" id="zip" name="zip"
+                               placeholder="Zip" maxlength="5" size="5">
+                    </div>
+                    <div class="row"></div>
+                </div>
+                #end if
+                <div style="display: none" id="address_div">
+                    <div class="col-15">
+                        <label for="address_type">Address Type</label>
+                    </div>
+                    <div class="col-15">
+                        <select id="address_type" name="address_type">
+                            <option value="Home">HOME</option>
+                            <option value="Work">WORK</option>
+                            <option value="Other">OTHER</option>
+                        </select>
+                    </div>
+                    <button type="button" onclick="remove(this);"
+                            class="button">-
+                    </button>
+                    <div class="col-75 container_sm">
+                        <input type="text" id="address" name="address"
+                               placeholder="Street Address">
+                    </div>
+                    <div class="row"></div>
+                    <div class="col-25 container_sm">
+                        <input type="text" id="city" name="city"
+                               placeholder="City" required>
+                    </div>
+                    <div class="col-25 container_sm">
+                        <input type="text" id="state" name="state"
+                               placeholder="State" required>
+                    </div>
+                    <div class="col-25 container_sm">
+                        <input type="number" id="zip" name="zip"
+                               placeholder="Zip" maxlength="5" size="5">
+                    </div>
+                    <div class="row"></div>
+                </div>
+
+            </div>
+
+            <button type="button" class="button" id="add_ph"
+                    onclick="add_phfn();">+
+            </button>
+            <div id="phone_div1">
+                #if $data_l.PHONE
+                #for $ph in $data_l.PHONE
+                <div>
+                    <div class="row">
+                        <div class="col-15">
+                            <label for="phone_type">Phone Type</label>
+                        </div>
+                        <div class="col-15">
+                            <select id="phone_type" name="phone_type">
+                                <option value="Home">HOME</option>
+                                <option value="Work">WORK</option>
+                                <option value="Other">OTHER</option>
+                            </select>
+                        </div>
+                        <button type="button" class="button"
+                                onclick="removeph(this);">-
+                        </button>
+                    </div>
+                    <div class="row">
+                        <div class="col-25 container_sm">
+                            <input type="number" name="areacode"
+                                   placeholder="Area Code" value=$ph[3]>
+                        </div>
+                        <div class="col-25 container_sm">
+                            <input type="number" name="ph_number"
+                                   placeholder="Phone Number" value=$ph[4]>
+                        </div>
+                        <input type="hidden" value=$ph[0] name="ph_id"/>
+                    </div>
+                </div>
+                #end for
+                #else
+                <div>
+                    <div class="row">
+                        <div class="col-15">
+                            <label for="phone_type">Phone Type</label>
+                        </div>
+                        <div class="col-15">
+                            <select id="phone_type" name="phone_type">
+                                <option value="Home">HOME</option>
+                                <option value="Work">WORK</option>
+                                <option value="Other">OTHER</option>
+                            </select>
+                        </div>
+                        <button type="button" class="button"
+                                onclick="removeph(this);">-
+                        </button>
+                    </div>
+                    <div class="row">
+                        <div class="col-25 container_sm">
+                            <input type="number" id="areacode"
+                                   name="areacode"
+                                   placeholder="Area Code">
+                        </div>
+                        <div class="col-25 container_sm">
+                            <input type="number" id="ph_number"
+                                   name="ph_number"
+                                   placeholder="Phone Number">
+                        </div>
+                    </div>
+                </div>
+                #end if
+                <div style="display: none" id="phone_div">
+                    <div class="row">
+                        <div class="col-15">
+                            <label for="phone_type">Phone Type</label>
+                        </div>
+                        <div class="col-15">
+                            <select id="phone_type" name="phone_type">
+                                <option value="Home">HOME</option>
+                                <option value="Work">WORK</option>
+                                <option value="Other">OTHER</option>
+                            </select>
+                        </div>
+                        <button type="button" class="button"
+                                onclick="removeph(this);">-
+                        </button>
+                    </div>
+                    <div class="row">
+                        <div class="col-25 container_sm">
+                            <input type="number" id="areacode"
+                                   name="areacode"
+                                   placeholder="Area Code">
+                        </div>
+                        <div class="col-25 container_sm">
+                            <input type="number" id="ph_number"
+                                   name="ph_number"
+                                   placeholder="Phone Number">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row"></div>
+
+            <button type="button" class="button" id="add_date"
+                    onclick="add_datefn();">+
+            </button>
+            <div id="date_div1">
+                #if $data_l.DATE
+                #for $dt in $data_l.DATE
+                <div>
+                    <div class="row">
+                        <div class="col-15 container_sm">
+                            <label for="datetype">Date Type</label>
+                        </div>
+                        <div class="col-25 container_sm">
+                            <select id="datetype" name="datetype">
+                                <option value="Home">BIRTH DATE</option>
+                                <option value="Work">ANNIVERSARY</option>
+                                <option value="Other">OTHER</option>
+                            </select>
+                        </div>
+                        <button type="button" class="button"
+                                onclick="remove(this);">-
+                        </button>
+                        <div class="col-25 container_sm">
+                            <input type="date" name="date"
+                                   placeholder="DATE" value=$dt[3]>
+                        </div>
+                        <input type="hidden" value=$dt[0] name="dt_id"/>
+
+                    </div>
+                </div>
+                #end for
+                #else
+                <div>
+                    <div class="row">
+                        <div class="col-15 container_sm">
+                            <label for="datetype">Date Type</label>
+                        </div>
+                        <div class="col-25 container_sm">
+                            <select id="datetype" name="datetype">
+                                <option value="Home">BIRTH DATE</option>
+                                <option value="Work">ANNIVERSARY</option>
+                                <option value="Other">OTHER</option>
+                            </select>
+                        </div>
+                        <button type="button" class="button"
+                                onclick="remove(this);">-
+                        </button>
+                        <div class="col-25 container_sm">
+                            <input type="date" name="date"
+                                   placeholder="DATE">
+                        </div>
+                    </div>
+                </div>
+                #end if
+                <div style="display: none" id="date_div">
+                    <div class="row">
+                        <div class="col-15 container_sm">
+                            <label for="datetype">Date Type</label>
+                        </div>
+                        <div class="col-25 container_sm">
+                            <select id="datetype" name="datetype">
+                                <option value="Home">BIRTH DATE</option>
+                                <option value="Work">ANNIVERSARY</option>
+                                <option value="Other">OTHER</option>
+                            </select>
+                        </div>
+                        <button type="button" class="button"
+                                onclick="remove(this);">-
+                        </button>
+                        <div class="col-25 container_sm">
+                            <input type="date" name="date"
+                                   placeholder="DATE">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row">
+                <input type="submit" value="Submit">
+                <input type="button" id="searchbar" value="Cancel"
+                       onclick="location.href='/'">
+                <input type="reset" value="Reset">
+            </div>
+        </font>
+    </form>
+</div>
+
+</body>
+</html>
