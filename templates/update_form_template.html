@@ -186,6 +186,11 @@
                         </div>
                         <div class="col-15">
                             <select id="phone_type" name="phone_type">
+                                #if $ph[1] == "Cell"
+                                <option value="Cell" selected>CELL</option>
+                                #else
+                                <option value="Cell">CELL</option>
+                                #end if
                                 #if $ph[1] == "Home"
                                 <option value="Home" selected>HOME</option>
                                 #else
@@ -228,6 +233,7 @@
                         </div>
                         <div class="col-15">
                             <select id="phone_type" name="phone_type">
+                                <option value="Cell">CELL</option>
                                 <option value="Home">HOME</option>
                                 <option value="Work">WORK</option>
                                 <option value="Other">OTHER</option>
@@ -259,6 +265,7 @@
                         </div>
                         <div class="col-15">
                             <select id="phone_type" name="phone_type">
+                                <option value="Cell">CELL</option>
                                 <option value="Home">HOME</option>
                                 <option value="Work">WORK</option>
                                 <option value="Other">OTHER</option>
@@ -297,18 +304,21 @@
                         </div>
                         <div class="col-25 container_sm">
                             <select id="datetype" name="datetype">
-                                #if $dt[2] == "BIRTH DATE"
-                                <option value="BIRTH DATE" selected>BIRTH DATE
+                                #if $dt[2] == "Birth Date"
+                                <option value="Birth Date" selected>BIRTH DATE
                                 </option>
                                 #else
-                                <option value="Home">HOME</option>
+                                <option value="Birth Date">BIRTH DATE
+                                </option>
                                 #end if
-                                #if $dt[2] == "ANNIVERSARY"
-                                <option value="ANNIVERSARY" selected>
+                                #if $dt[2] == "Anniversary"
+                                <option value="Anniversary" selected>
                                     ANNIVERSARY
                                 </option>
                                 #else
-                                <option value="Work">WORK</option>
+                                <option value="Anniversary">
+                                    ANNIVERSARY
+                                </option>
                                 #end if
                                 #if $dt[2] == "OTHER"
                                 <option value="OTHER" selected>OTHER</option>
@@ -337,8 +347,8 @@
                         </div>
                         <div class="col-25 container_sm">
                             <select id="datetype" name="datetype">
-                                <option value="Home">BIRTH DATE</option>
-                                <option value="Work">ANNIVERSARY</option>
+                                <option value="Birth Date">BIRTH DATE</option>
+                                <option value="Anniversary">ANNIVERSARY</option>
                                 <option value="Other">OTHER</option>
                             </select>
                         </div>
@@ -360,30 +370,32 @@
                             <label for="datetype">Date Type</label>
                         </div>
                         <div class="col-25 container_sm">
-                        <div class="col-25 container_sm">
-                            <select id="datetype" name="datetype">
-                                <option value="Home">BIRTH DATE</option>
-                                <option value="Work">ANNIVERSARY</option>
-                                <option value="Other">OTHER</option>
-                            </select>
-                        </div>
-                        <button type="button" class="button"
-                                onclick="remove(this);">-
-                        </button>
-                        <div class="col-25 container_sm">
-                            <input type="date" name="date"
-                                   placeholder="DATE">
+                            <div class="col-25 container_sm">
+                                <select id="datetype" name="datetype">
+                                    <option value="Birth Date">BIRTH DATE
+                                    </option>
+                                    <option value="Anniversary">ANNIVERSARY
+                                    </option>
+                                    <option value="Other">OTHER</option>
+                                </select>
+                            </div>
+                            <button type="button" class="button"
+                                    onclick="remove(this);">-
+                            </button>
+                            <div class="col-25 container_sm">
+                                <input type="date" name="date"
+                                       placeholder="DATE">
+                            </div>
                         </div>
                     </div>
-                </div>
 
-            </div>
-            <div class="row">
-                <input type="submit" value="Submit">
-                <input type="button" id="searchbar" value="Cancel"
-                       onclick="location.href='/'">
-                <input type="reset" value="Reset">
-            </div>
+                </div>
+                <div class="row">
+                    <input type="submit" value="Submit">
+                    <input type="button" id="searchbar" value="Cancel"
+                           onclick="location.href='/'">
+                    <input type="reset" value="Reset">
+                </div>
         </font>
     </form>
 </div>

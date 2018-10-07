@@ -99,10 +99,11 @@ class DataManipulation:
                 city[index], state[index], zip_code[index])
             if add_id == 0:
                 self.dbhandler_o.create('ADDRESS', address_query)
-            if add_id not in old_add_id:
-                self.dbhandler_o.delete('ADDRESS', add_id)
-            else:
-                self.dbhandler_o.update('ADDRESS', add_id, address_query)
+            if address[index]:
+                if add_id not in old_add_id:
+                    self.dbhandler_o.delete('ADDRESS', add_id)
+                else:
+                    self.dbhandler_o.update('ADDRESS', add_id, address_query)
 
         for index in range(len(form_data_d['ph_id'])):
             ph_id = form_data_d['ph_id'][index]
@@ -111,10 +112,11 @@ class DataManipulation:
                 ph_number[index])
             if ph_id == 0:
                 self.dbhandler_o.create('PHONE', phone_query)
-            if ph_id not in old_add_id:
-                self.dbhandler_o.delete('PHONE', ph_id)
-            else:
-                self.dbhandler_o.update('PHONE', ph_id, phone_query)
+            if ph_number[index]:
+                if ph_id not in old_add_id:
+                    self.dbhandler_o.delete('PHONE', ph_id)
+                else:
+                    self.dbhandler_o.update('PHONE', ph_id, phone_query)
 
         for index in range(len(form_data_d['dt_id'])):
             dt_id = form_data_d['dt_id'][index]
@@ -122,10 +124,11 @@ class DataManipulation:
                 contact_id, datetype[index], date[index])
             if dt_id == 0:
                 self.dbhandler_o.create('DATE', date_query)
-            if dt_id not in old_add_id:
-                self.dbhandler_o.delete('DATE', dt_id)
-            else:
-                self.dbhandler_o.update('DATE', dt_id, date_query)
+            if date[index]:
+                if dt_id not in old_add_id:
+                    self.dbhandler_o.delete('DATE', dt_id)
+                else:
+                    self.dbhandler_o.update('DATE', dt_id, date_query)
         return None, True
 
     def update_table_data(self, search_query=None):
