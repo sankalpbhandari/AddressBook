@@ -87,11 +87,11 @@
                     <div class="row"></div>
                     <div class="col-25 container_sm">
                         <input type="text" name="city"
-                               placeholder="City" required value=$add[4]>
+                               placeholder="City" value=$add[4]>
                     </div>
                     <div class="col-25 container_sm">
                         <input type="text" name="state"
-                               placeholder="State" required value=$add[5]>
+                               placeholder="State" value=$add[5]>
                     </div>
                     <div class="col-25 container_sm">
                         <input type="number" name="zip"
@@ -124,11 +124,11 @@
                     <div class="row"></div>
                     <div class="col-25 container_sm">
                         <input type="text" id="city" name="city"
-                               placeholder="City" required>
+                               placeholder="City">
                     </div>
                     <div class="col-25 container_sm">
                         <input type="text" id="state" name="state"
-                               placeholder="State" required>
+                               placeholder="State">
                     </div>
                     <div class="col-25 container_sm">
                         <input type="number" id="zip" name="zip"
@@ -138,6 +138,7 @@
                 </div>
                 #end if
                 <div style="display: none" id="address_div">
+                    <input type="hidden" value=0 name="add_id"/>
                     <div class="col-15">
                         <label for="address_type">Address Type</label>
                     </div>
@@ -158,11 +159,11 @@
                     <div class="row"></div>
                     <div class="col-25 container_sm">
                         <input type="text" id="city" name="city"
-                               placeholder="City" required>
+                               placeholder="City">
                     </div>
                     <div class="col-25 container_sm">
                         <input type="text" id="state" name="state"
-                               placeholder="State" required>
+                               placeholder="State">
                     </div>
                     <div class="col-25 container_sm">
                         <input type="number" id="zip" name="zip"
@@ -251,6 +252,7 @@
                 </div>
                 #end if
                 <div style="display: none" id="phone_div">
+                    <input type="hidden" value=0 name="ph_id"/>
                     <div class="row">
                         <div class="col-15">
                             <label for="phone_type">Phone Type</label>
@@ -351,10 +353,13 @@
                 </div>
                 #end if
                 <div style="display: none" id="date_div">
+                    <input type="hidden" value=0 name="dt_id"/>
+
                     <div class="row">
                         <div class="col-15 container_sm">
                             <label for="datetype">Date Type</label>
                         </div>
+                        <div class="col-25 container_sm">
                         <div class="col-25 container_sm">
                             <select id="datetype" name="datetype">
                                 <option value="Home">BIRTH DATE</option>

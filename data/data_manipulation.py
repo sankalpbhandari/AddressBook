@@ -8,20 +8,9 @@ class DataManipulation:
     def validate_form_data(self, form_data_d):
         try:
             errors = list()
-            firstname = form_data_d.get('firstname', None)[0]
-            middlename = form_data_d.get('middlename', None)[0]
-            lastname = form_data_d.get('lastname', None)[0]
-            address = form_data_d.get('address', None)
-            address_type = form_data_d.get('address_type', None)
-            city = form_data_d.get('city', None)
             zip_code = form_data_d.get('zip', None)
-            state = form_data_d.get('state', None)
-            date = form_data_d.get('date', None)
-            datetype = form_data_d.get('datetype', None)
             areacode = form_data_d.get('areacode', None)
             ph_number = form_data_d.get('ph_number', None)
-            phone_type = form_data_d.get('phone_type', None)
-            name_query = '("%s","%s","%s")' % (firstname, middlename, lastname)
             for z in zip_code:
                 if len(str(z)) != 5:
                     errors.append("Please check the Zip Code")
@@ -32,28 +21,112 @@ class DataManipulation:
                 if len(str(p)) != 7:
                     errors.append("Please check the Phone Number")
             if errors:
-                return errors, False
-            contact_id = self.dbhandler_o.create('CONTACT', name_query)
-            for index in range(len(address_type)):
-                if address[index]:
-                    address_query = '(%s,"%s","%s","%s","%s",%s)' % (
-                        contact_id, address_type[index], address[index],
-                        city[index], state[index], zip_code[index])
-                    self.dbhandler_o.create('ADDRESS', address_query)
-            for index in range(len(phone_type)):
-                if areacode[index]:
-                    phone_query = '("%s",%s,%s,%s)' % (
-                        phone_type[index], contact_id, areacode[index],
-                        ph_number[index])
-                    self.dbhandler_o.create('PHONE', phone_query)
-            for index in range(len(datetype)):
-                if date[index]:
-                    date_query = '(%s,"%s","%s")' % (
-                        contact_id, datetype[index], date[index])
-                    self.dbhandler_o.create('DATE', date_query)
-            return None, True
+                return errors
+            return None
         except Exception as e:
             return [e], False
+
+    def create_data(self, form_data_d):
+        errors = self.validate_form_data(form_data_d)
+        if errors:
+            return errors, False
+        firstname = form_data_d.get('firstname', None)[0]
+        middlename = form_data_d.get('middlename', None)[0]
+        lastname = form_data_d.get('lastname', None)[0]
+        address = form_data_d.get('address', None)
+        address_type = form_data_d.get('address_type', None)
+        city = form_data_d.get('city', None)
+        zip_code = form_data_d.get('zip', None)
+        state = form_data_d.get('state', None)
+        date = form_data_d.get('date', None)
+        datetype = form_data_d.get('datetype', None)
+        areacode = form_data_d.get('areacode', None)
+        ph_number = form_data_d.get('ph_number', None)
+        phone_type = form_data_d.get('phone_type', None)
+        name_query = '("%s","%s","%s")' % (firstname, middlename, lastname)
+        contact_id = self.dbhandler_o.create('CONTACT', name_query)
+        for index in range(len(address_type)):
+            if address[index]:
+                address_query = '(%s,"%s","%s","%s","%s",%s)' % (
+                    contact_id, address_type[index], address[index],
+                    city[index], state[index], zip_code[index])
+                self.dbhandler_o.create('ADDRESS', address_query)
+        for index in range(len(phone_type)):
+            if areacode[index]:
+                phone_query = '("%s",%s,%s,%s)' % (
+                    phone_type[index], contact_id, areacode[index],
+                    ph_number[index])
+                self.dbhandler_o.create('PHONE', phone_query)
+        for index in range(len(datetype)):
+            if date[index]:
+                date_query = '(%s,"%s","%s")' % (
+                    contact_id, datetype[index], date[index])
+                self.dbhandler_o.create('DATE', date_query)
+        return None, True
+
+    def update_data(self, form_data_d):
+        contact_id = form_data_d['contact_id'][0]
+        old_data = self.dbhandler_o.make_table(contact_id)
+        errors = self.validate_form_data(form_data_d)
+        if errors:
+            return errors, False
+        firstname = form_data_d.get('firstname', None)[0]
+        middlename = form_data_d.get('middlename', None)[0]
+        lastname = form_data_d.get('lastname', None)[0]
+        address = form_data_d.get('address', None)
+        address_type = form_data_d.get('address_type', None)
+        city = form_data_d.get('city', None)
+        zip_code = form_data_d.get('zip', None)
+        state = form_data_d.get('state', None)
+        date = form_data_d.get('date', None)
+        datetype = form_data_d.get('datetype', None)
+        areacode = form_data_d.get('areacode', None)
+        ph_number = form_data_d.get('ph_number', None)
+        phone_type = form_data_d.get('phone_type', None)
+        name_query = '("%s","%s","%s")' % (firstname, middlename, lastname)
+        self.dbhandler_o.update('CONTACT', contact_id, name_query)
+        old_add_id, old_ph_id, old_dt_id = [], [], []
+        for add in old_data['ADDRESS']:
+            old_add_id.append(add[0])
+        for phone in old_data['PHONE']:
+            old_ph_id.append(phone[0])
+        for date in old_data['DATE']:
+            old_dt_id.append(date[0])
+        for index in range(len(form_data_d['add_id'])):
+            add_id = form_data_d['add_id'][index]
+            address_query = '(%s,"%s","%s","%s","%s",%s)' % (
+                contact_id, address_type[index], address[index],
+                city[index], state[index], zip_code[index])
+            if add_id == 0:
+                self.dbhandler_o.create('ADDRESS', address_query)
+            if add_id not in old_add_id:
+                self.dbhandler_o.delete('ADDRESS', add_id)
+            else:
+                self.dbhandler_o.update('ADDRESS', add_id, address_query)
+
+        for index in range(len(form_data_d['ph_id'])):
+            ph_id = form_data_d['ph_id'][index]
+            phone_query = '("%s",%s,%s,%s)' % (
+                phone_type[index], contact_id, areacode[index],
+                ph_number[index])
+            if ph_id == 0:
+                self.dbhandler_o.create('PHONE', phone_query)
+            if ph_id not in old_add_id:
+                self.dbhandler_o.delete('PHONE', ph_id)
+            else:
+                self.dbhandler_o.update('PHONE', ph_id, phone_query)
+
+        for index in range(len(form_data_d['dt_id'])):
+            dt_id = form_data_d['dt_id'][index]
+            date_query = '(%s,"%s","%s")' % (
+                contact_id, datetype[index], date[index])
+            if dt_id == 0:
+                self.dbhandler_o.create('DATE', date_query)
+            if dt_id not in old_add_id:
+                self.dbhandler_o.delete('DATE', dt_id)
+            else:
+                self.dbhandler_o.update('DATE', dt_id, date_query)
+        return None, True
 
     def update_table_data(self, search_query=None):
         if search_query is None:
@@ -112,8 +185,8 @@ class DataManipulation:
             return [e], False
 
     def create_html(self, filename, template, table_data):
-        file_path = 'templates/'+filename
-        template_path = 'templates/'+template
+        file_path = 'templates/' + filename
+        template_path = 'templates/' + template
         write_file = open(file_path, 'w+')
         templateDef = open(template_path, 'r').read()
         t = Template(templateDef, searchList={'data_l': table_data})
