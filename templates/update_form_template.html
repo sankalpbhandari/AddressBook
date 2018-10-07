@@ -60,9 +60,21 @@
                     </div>
                     <div class="col-15">
                         <select id="address_type" name="address_type">
+                            #if $add[2] == "Home"
+                            <option value="Home" selected>HOME</option>
+                            #else
                             <option value="Home">HOME</option>
+                            #endif
+                            #if $add[2] == "Work"
+                            <option value="Work" selected>WORK</option>
+                            #else
                             <option value="Work">WORK</option>
+                            #endif
+                            #if $add[2] == "Other"
+                            <option value="Other" selected>OTHER</option>
+                            #else
                             <option value="Other">OTHER</option>
+                            #endif
                         </select>
                     </div>
                     <button type="button" onclick="remove(this);"
@@ -174,9 +186,21 @@
                         </div>
                         <div class="col-15">
                             <select id="phone_type" name="phone_type">
+                                #if $ph[1] == "Home"
+                                <option value="Home" selected>HOME</option>
+                                #else
                                 <option value="Home">HOME</option>
+                                #endif
+                                #if $ph[1] == "Work"
+                                <option value="Work" selected>WORK</option>
+                                #else
                                 <option value="Work">WORK</option>
+                                #endif
+                                #if $ph[1] == "Other"
+                                <option value="Other" selected>OTHER</option>
+                                #else
                                 <option value="Other">OTHER</option>
+                                #endif
                             </select>
                         </div>
                         <button type="button" class="button"
@@ -272,9 +296,24 @@
                         </div>
                         <div class="col-25 container_sm">
                             <select id="datetype" name="datetype">
-                                <option value="Home">BIRTH DATE</option>
-                                <option value="Work">ANNIVERSARY</option>
+                                #if $dt[2] == "BIRTH DATE"
+                                <option value="BIRTH DATE" selected>BIRTH DATE
+                                </option>
+                                #else
+                                <option value="Home">HOME</option>
+                                #endif
+                                #if $dt[2] == "ANNIVERSARY"
+                                <option value="ANNIVERSARY" selected>
+                                    ANNIVERSARY
+                                </option>
+                                #else
+                                <option value="Work">WORK</option>
+                                #endif
+                                #if $dt[2] == "OTHER"
+                                <option value="OTHER" selected>OTHER</option>
+                                #else
                                 <option value="Other">OTHER</option>
+                                #endif
                             </select>
                         </div>
                         <button type="button" class="button"
