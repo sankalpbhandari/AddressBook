@@ -73,6 +73,6 @@ if __name__ == '__main__':
         table_data = data_m_o.update_table_data()
         data_m_o.create_html("show.html", "table_template.html", table_data)
         app.config['TEMPLATES_AUTO_RELOAD'] = True
-        app.run(host='0.0.0.0', port=7008, debug=False)
+        app.run(host='0.0.0.0', port=8008, debug=False)
     except Exception as e:
         print e

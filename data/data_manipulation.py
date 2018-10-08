@@ -12,7 +12,7 @@ class DataManipulation:
             areacode = form_data_d.get('areacode', None)
             ph_number = form_data_d.get('ph_number', None)
             for z in zip_code:
-                if z:
+                if z and z != 0:
                     if len(str(z)) != 5:
                         errors.append("Please check the Zip Code %s" % z)
             for a in areacode:
@@ -81,7 +81,7 @@ class DataManipulation:
         city = form_data_d.get('city', None)
         zip_code = form_data_d.get('zip', None)
         state = form_data_d.get('state', None)
-        date = form_data_d.get('date', None)
+        new_date = form_data_d.get('date', None)
         datetype = form_data_d.get('datetype', None)
         areacode = form_data_d.get('areacode', None)
         ph_number = form_data_d.get('ph_number', None)
@@ -97,8 +97,6 @@ class DataManipulation:
             old_ph_id.append(phone[0])
         for date in old_data['DATE']:
             old_dt_id.append(date[0])
-        print "+++a+++p+++d+++", old_add_id, old_ph_id, old_dt_id
-        print form_data_d['add_id'], form_data_d['ph_id'], form_data_d['dt_id']
         for index in range(len(form_data_d['add_id'])):
             add_id = int(form_data_d['add_id'][index])
             if address[index]:
@@ -107,15 +105,16 @@ class DataManipulation:
                         contact_id, address_type[index], address[index],
                         city[index], state[index], zip_code[index])
                     self.dbhandler_o.create('ADDRESS', address_query)
-                elif add_id not in old_add_id:
-                    self.dbhandler_o.delete('ADDRESS', add_id)
-                else:
+                elif add_id in old_add_id:
                     address_query = 'Address_type="%s", Address="%s", ' \
                                     'City="%s", State="%s", Zip=%s' % (
                                         address_type[index], address[index],
                                         city[index], state[index],
                                         zip_code[index])
                     self.dbhandler_o.update('ADDRESS', add_id, address_query)
+        for old_add in old_add_id:
+            if str(old_add) not in form_data_d['add_id']:
+                self.dbhandler_o.delete('ADDRESS', old_add)
 
         for index in range(len(form_data_d['ph_id'])):
             ph_id = int(form_data_d['ph_id'][index])
@@ -125,26 +124,30 @@ class DataManipulation:
                         phone_type[index], contact_id, areacode[index],
                         ph_number[index])
                     self.dbhandler_o.create('PHONE', phone_query)
-                elif ph_id not in old_ph_id:
-                    self.dbhandler_o.delete('PHONE', ph_id)
-                else:
+                elif ph_id in old_ph_id:
                     phone_query = 'PhoneType="%s",AreaCode=%s,Number=%s' % (
                         phone_type[index], areacode[index], ph_number[index])
                     self.dbhandler_o.update('PHONE', ph_id, phone_query)
+        for old_ph in old_ph_id:
+            if str(old_ph) not in form_data_d['ph_id']:
+                self.dbhandler_o.delete('PHONE', old_ph)
 
         for index in range(len(form_data_d['dt_id'])):
             dt_id = int(form_data_d['dt_id'][index])
-            if date[index]:
+            if new_date[index]:
                 if dt_id == 0:
                     date_query = '(%s,"%s","%s")' % (
-                        contact_id, datetype[index], date[index])
+                        contact_id, datetype[index], new_date[index])
                     self.dbhandler_o.create('DATE', date_query)
-                elif dt_id not in old_dt_id:
-                    self.dbhandler_o.delete('DATE', dt_id)
-                else:
+                elif dt_id in old_dt_id:
                     date_query = 'DateType="%s",Date="%s"' % (
-                        datetype[index], date[index])
+                        datetype[index], new_date[index])
                     self.dbhandler_o.update('DATE', dt_id, date_query)
+
+        for old_dt in old_dt_id:
+            if str(old_dt) not in form_data_d['dt_id']:
+                self.dbhandler_o.delete('DATE', old_dt)
+
         return None, True
 
     def update_table_data(self, search_query=None):

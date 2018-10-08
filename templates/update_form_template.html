@@ -180,6 +180,7 @@
                 #if $data_l.PHONE
                 #for $ph in $data_l.PHONE
                 <div>
+                    <input type="hidden" value=$ph[0] name="ph_id"/>
                     <div class="row">
                         <div class="col-15">
                             <label for="phone_type">Phone Type</label>
@@ -221,7 +222,6 @@
                             <input type="number" name="ph_number"
                                    placeholder="Phone Number" value=$ph[4]>
                         </div>
-                        <input type="hidden" value=$ph[0] name="ph_id"/>
                     </div>
                 </div>
                 #end for
@@ -298,6 +298,7 @@
                 #if $data_l.DATE
                 #for $dt in $data_l.DATE
                 <div>
+                    <input type="hidden" value=$dt[0] name="dt_id"/>
                     <div class="row">
                         <div class="col-15 container_sm">
                             <label for="datetype">Date Type</label>
@@ -334,7 +335,6 @@
                             <input type="date" name="date"
                                    placeholder="DATE" value=$dt[3]>
                         </div>
-                        <input type="hidden" value=$dt[0] name="dt_id"/>
                     </div>
                 </div>
                 #end for
@@ -362,7 +362,7 @@
                 </div>
                 #end if
                 <div id="date_div" style="display: none">
-                    <input type="hidden" value=$dt[0] name="dt_id"/>
+                    <input type="hidden" value=0 name="dt_id"/>
                     <div class="row">
                         <div class="col-15 container_sm">
                             <label for="datetype">Date Type</label>
