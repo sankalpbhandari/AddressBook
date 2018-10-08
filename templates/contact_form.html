@@ -12,12 +12,14 @@
     <link rel="stylesheet"
           href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
-    <h1 style="color: #123456; font-style: italic">Contact Form</h1>
+    <h2 align="center" style="color: #123456"><b>Contact Form</b></h2>
+
 </head>
 <body>
 {% if errors %}
 <div class="alert alert-danger alert-dismissible container">
-    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+    <a href="#" class="close" data-dismiss="alert"
+       aria-label="close">&times;</a>
     <ul>
         {%- for msg in errors %}
         <li>{{ msg }}</li>
@@ -42,7 +44,7 @@
                            placeholder="Last Name" required>
                 </div>
             </div>
-            <button type="button" class="button" id="add_add"
+            <button type="button" class="button glyphicon" id="add_add"
                     onclick="add_addfn();">+
             </button>
             <div id="address_div1">
@@ -58,8 +60,10 @@
                         </select>
                     </div>
                     <button type="button" onclick="remove(this);"
-                            class="button">-
+                            class="button glyphicon glyphicon-minus-sign">
                     </button>
+                    <div class="row"></div>
+
                     <div class="col-75 container_sm">
                         <input type="text" id="address" name="address"
                                placeholder="Street Address">
@@ -81,7 +85,7 @@
                 </div>
             </div>
 
-            <button type="button" class="button" id="add_ph"
+            <button type="button" class="button glyphicon" id="add_ph"
                     onclick="add_phfn();">+
             </button>
             <div id="phone_div1">
@@ -97,8 +101,9 @@
                                 <option value="Other">OTHER</option>
                             </select>
                         </div>
-                        <button type="button" class="button"
-                                onclick="removeph(this);">-
+                        <button type="button" class
+                                ="button glyphicon glyphicon-minus-sign"
+                                onclick="removeph(this);">
                         </button>
                     </div>
                     <div class="row">
@@ -115,7 +120,7 @@
                 <div class="row"></div>
             </div>
 
-            <button type="button" class="button" id="add_date"
+            <button type="button" class="button glyphicon" id="add_date"
                     onclick="add_datefn();">+
             </button>
             <div id="date_div1">
@@ -131,8 +136,9 @@
                                 <option value="Other">OTHER</option>
                             </select>
                         </div>
-                        <button type="button" class="button"
-                                onclick="remove(this);">-
+                        <button type="button" class
+                                ="button glyphicon glyphicon-minus-sign"
+                                onclick="removeph(this);">
                         </button>
                         <div class="col-25 container_sm">
                             <input type="date" id="date" name="date"

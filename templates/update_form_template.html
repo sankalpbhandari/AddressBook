@@ -12,7 +12,7 @@
     <link rel="stylesheet"
           href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
-    <h1 style="color: #123456; font-style: italic">Update Contact Form</h1>
+    <h2 align="center" style="color: #123456"><b>Update Contact Form</b></h2>
 </head>
 <body>
 {% if errors %}
@@ -48,7 +48,7 @@
                            name="contact_id"/>
                 </div>
             </div>
-            <button type="button" class="button" id="add_add"
+            <button type="button" class="button glyphicon" id="add_add"
                     onclick="add_addfn();">+
             </button>
             <div id="address_div1">
@@ -78,8 +78,9 @@
                         </select>
                     </div>
                     <button type="button" onclick="remove(this);"
-                            class="button">-
+                            class="button glyphicon glyphicon-minus-sign">
                     </button>
+                    <div class="row"></div>
                     <div class="col-75 container_sm">
                         <input type="text" name="address"
                                placeholder="Street Address" value="$add[3]">
@@ -115,8 +116,10 @@
                         </select>
                     </div>
                     <button type="button" onclick="remove(this);"
-                            class="button">-
+                            class="button glyphicon glyphicon-minus-sign">
                     </button>
+                    <div class="row"></div>
+
                     <div class="col-75 container_sm">
                         <input type="text" id="address" name="address"
                                placeholder="Street Address">
@@ -150,8 +153,10 @@
                         </select>
                     </div>
                     <button type="button" onclick="remove(this);"
-                            class="button">-
+                            class="button glyphicon glyphicon-minus-sign">
                     </button>
+                    <div class="row"></div>
+
                     <div class="col-75 container_sm">
                         <input type="text" id="address" name="address"
                                placeholder="Street Address">
@@ -173,7 +178,7 @@
                 </div>
             </div>
 
-            <button type="button" class="button" id="add_ph"
+            <button type="button" class="button glyphicon" id="add_ph"
                     onclick="add_phfn();">+
             </button>
             <div id="phone_div1">
@@ -209,8 +214,8 @@
                                 #end if
                             </select>
                         </div>
-                        <button type="button" class="button"
-                                onclick="removeph(this);">-
+                        <button type="button" onclick="remove(this);"
+                                class="button glyphicon glyphicon-minus-sign">
                         </button>
                     </div>
                     <div class="row">
@@ -239,8 +244,8 @@
                                 <option value="Other">OTHER</option>
                             </select>
                         </div>
-                        <button type="button" class="button"
-                                onclick="removeph(this);">-
+                        <button type="button" onclick="remove(this);"
+                                class="button glyphicon glyphicon-minus-sign">
                         </button>
                     </div>
                     <div class="row">
@@ -271,8 +276,8 @@
                                 <option value="Other">OTHER</option>
                             </select>
                         </div>
-                        <button type="button" class="button"
-                                onclick="removeph(this);">-
+                        <button type="button" onclick="remove(this);"
+                                class="button glyphicon glyphicon-minus-sign">
                         </button>
                     </div>
                     <div class="row">
@@ -291,7 +296,7 @@
             </div>
             <div class="row"></div>
 
-            <button type="button" class="button" id="add_date"
+            <button type="button" class="button glyphicon" id="add_date"
                     onclick="add_datefn();">+
             </button>
             <div id="date_div1">
@@ -328,8 +333,8 @@
                                 #end if
                             </select>
                         </div>
-                        <button type="button" class="button"
-                                onclick="remove(this);">-
+                        <button type="button" onclick="remove(this);"
+                                class="button glyphicon glyphicon-minus-sign">
                         </button>
                         <div class="col-25 container_sm">
                             <input type="date" name="date"
@@ -351,8 +356,8 @@
                                 <option value="Other">OTHER</option>
                             </select>
                         </div>
-                        <button type="button" class="button"
-                                onclick="remove(this);">-
+                        <button type="button" onclick="remove(this);"
+                                class="button glyphicon glyphicon-minus-sign">
                         </button>
                         <div class="col-25 container_sm">
                             <input type="date" name="date"
@@ -374,8 +379,8 @@
                                 <option value="Other">OTHER</option>
                             </select>
                         </div>
-                        <button type="button" class="button"
-                                onclick="remove(this);">-
+                        <button type="button" onclick="remove(this);"
+                                class="button glyphicon glyphicon-minus-sign">
                         </button>
                         <div class="col-25 container_sm">
                             <input type="date" name="date"

@@ -27,7 +27,7 @@ input[type=date], select, text {
 }
 
 label {
-    padding: 12px 12px 12px 1px;
+    padding: 12px 12px 12px 12px;
     display: inline-block;
 }
 
@@ -83,19 +83,19 @@ input[type=submit]:hover {
 .col-25 {
     float: left;
     width: 25%;
-    margin-top: 6px;
+    margin-top: 2px;
 }
 
 .col-15 {
     float: left;
     width: 15%;
-    margin-top: 6px;
+    margin-top: 2px;
 }
 
 .col-75 {
     float: left;
     width: 75%;
-    margin-top: 6px;
+    margin-top: 2px;
 }
 
 /* Clear floats after the columns */
@@ -116,12 +116,11 @@ input[type=submit]:hover {
     background-color: #123456;
     border: none;
     color: white;
-    /*padding: 15px 32px;*/
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    padding: 12px 20px;
+    padding: 5px;
     border-radius: 10px;
     cursor: pointer;
     float: right;
