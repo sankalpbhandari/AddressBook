@@ -47,106 +47,107 @@
             <button type="button" class="button glyphicon" id="add_add"
                     onclick="add_addfn();">+
             </button>
-            <div id="address_div1">
-                <div id="address_div">
-                    <div class="col-15">
-                        <label for="address_type">Address Type</label>
-                    </div>
-                    <div class="col-15">
-                        <select id="address_type" name="address_type">
-                            <option value="Home">HOME</option>
-                            <option value="Work">WORK</option>
-                            <option value="Other">OTHER</option>
-                        </select>
-                    </div>
-                    <button type="button" onclick="remove(this);"
-                            class="button glyphicon glyphicon-minus-sign">
-                    </button>
-                    <div class="row"></div>
-
-                    <div class="col-75 container_sm">
-                        <input type="text" id="address" name="address"
-                               placeholder="Street Address">
-                    </div>
-                    <div class="row"></div>
-                    <div class="col-25 container_sm">
-                        <input type="text" id="city" name="city"
-                               placeholder="City">
-                    </div>
-                    <div class="col-25 container_sm">
-                        <input type="text" id="state" name="state"
-                               placeholder="State">
-                    </div>
-                    <div class="col-25 container_sm">
-                        <input type="number" id="zip" name="zip"
-                               placeholder="Zip" maxlength="5" size="5">
-                    </div>
-                    <div class="row"></div>
-                </div>
-            </div>
-
-            <button type="button" class="button glyphicon" id="add_ph"
-                    onclick="add_phfn();">+
-            </button>
-            <div id="phone_div1">
-                <div id="phone_div">
-                    <div class="row">
+                <div id="address_div1">
+                    <div id="address_div">
                         <div class="col-15">
-                            <label for="phone_type">Phone Type</label>
+                            <label for="address_type">Address Type</label>
                         </div>
                         <div class="col-15">
-                            <select id="phone_type" name="phone_type">
+                            <select id="address_type" name="address_type">
                                 <option value="Home">HOME</option>
                                 <option value="Work">WORK</option>
                                 <option value="Other">OTHER</option>
                             </select>
                         </div>
-                        <button type="button" class
-                                ="button glyphicon glyphicon-minus-sign"
-                                onclick="removeph(this);">
+                        <button type="button" onclick="remove(this);"
+                                class="button glyphicon glyphicon-minus-sign">
                         </button>
-                    </div>
-                    <div class="row">
+                        <div class="row"></div>
+
+                        <div class="col-75 container_sm">
+                            <input type="text" id="address" name="address"
+                                   placeholder="Street Address">
+                        </div>
+                        <div class="row"></div>
                         <div class="col-25 container_sm">
-                            <input type="number" id="areacode" name="areacode"
-                                   placeholder="Area Code">
+                            <input type="text" id="city" name="city"
+                                   placeholder="City">
                         </div>
                         <div class="col-25 container_sm">
-                            <input type="number" id="ph_number" name="ph_number"
-                                   placeholder="Phone Number">
+                            <input type="text" id="state" name="state"
+                                   placeholder="State">
+                        </div>
+                        <div class="col-25 container_sm">
+                            <input type="number" id="zip" name="zip"
+                                   placeholder="Zip" maxlength="5" size="5">
+                        </div>
+                        <div class="row"></div>
+                    </div>
+                </div>
+            <button type="button" class="button glyphicon" id="add_ph"
+                    onclick="add_phfn();">+
+            </button>
+                <div id="phone_div1">
+                    <div id="phone_div">
+                        <div class="row">
+                            <div class="col-15">
+                                <label for="phone_type">Phone Type</label>
+                            </div>
+                            <div class="col-15">
+                                <select id="phone_type" name="phone_type">
+                                    <option value="Cell">CELL</option>
+                                    <option value="Home">HOME</option>
+                                    <option value="Work">WORK</option>
+                                    <option value="Other">OTHER</option>
+
+                                </select>
+                            </div>
+                            <button type="button" class
+                                    ="button glyphicon glyphicon-minus-sign"
+                                    onclick="removeph(this);">
+                            </button>
+                        </div>
+                        <div class="row">
+                            <div class="col-25 container_sm">
+                                <input type="number" id="areacode"
+                                       name="areacode"
+                                       placeholder="Area Code">
+                            </div>
+                            <div class="col-25 container_sm">
+                                <input type="number" id="ph_number"
+                                       name="ph_number"
+                                       placeholder="Phone Number">
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="row"></div>
-            </div>
-
             <button type="button" class="button glyphicon" id="add_date"
                     onclick="add_datefn();">+
             </button>
-            <div id="date_div1">
-                <div id="date_div">
-                    <div class="row">
-                        <div class="col-15 container_sm">
-                            <label for="datetype">Date Type</label>
-                        </div>
-                        <div class="col-25 container_sm">
-                            <select id="datetype" name="datetype">
-                                <option value="Home">BIRTH DATE</option>
-                                <option value="Work">ANNIVERSARY</option>
-                                <option value="Other">OTHER</option>
-                            </select>
-                        </div>
-                        <button type="button" class
-                                ="button glyphicon glyphicon-minus-sign"
-                                onclick="removeph(this);">
-                        </button>
-                        <div class="col-25 container_sm">
-                            <input type="date" id="date" name="date"
-                                   placeholder="DATE">
+                <div id="date_div1">
+                    <div id="date_div">
+                        <div class="row">
+                            <div class="col-15 container_sm">
+                                <label for="datetype">Date Type</label>
+                            </div>
+                            <div class="col-25 container_sm">
+                                <select id="datetype" name="datetype">
+                                    <option value="Home">BIRTH DATE</option>
+                                    <option value="Work">ANNIVERSARY</option>
+                                    <option value="Other">OTHER</option>
+                                </select>
+                            </div>
+                            <button type="button" class
+                                    ="button glyphicon glyphicon-minus-sign"
+                                    onclick="removeph(this);">
+                            </button>
+                            <div class="col-25 container_sm">
+                                <input type="date" id="date" name="date"
+                                       placeholder="DATE">
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
             <div class="row">
                 <input type="submit" value="Submit">
                 <input type="button" id="searchbar" value="Cancel"
