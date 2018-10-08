@@ -14,83 +14,83 @@
 </head>
 <body>
 
-<h2 align="center" style="color: #123456"><b>Address Book</b></h2>
+<h2 align="center" style="color: #202020"><b>Address Book</b></h2>
 <div style="padding: 10px">
-<div class="topnav">
-    <div class="search-container">
+    <div class="topnav">
+        <div class="search-container">
 
-        <form action="/" method="post">
-            <input type="text" placeholder="Search.." name="search">
-            <button type="submit"><i class="fa fa-search"></i></button>
-        </form>
+            <form action="/" method="post">
+                <input type="text" placeholder="Search..." name="search">
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+        </div>
+        <div class="add-container">
+            <form action="contact_form.html">
+                <button type="submit">Add Contact</button>
+            </form>
+        </div>
     </div>
-    <div class="add-container">
-        <form action="contact_form.html">
-            <button type="submit">Add New Contact</button>
-        </form>
+    {% with messages = get_flashed_messages() %}
+    {% if messages %}
+    <div class="alert alert-success alert-dismissible search-container">
+        <a href="#" class="close" data-dismiss="alert"
+           aria-label="close">&times;</a>
+        <strong>Success!</strong> {{messages[0]}}.
     </div>
-</div>
-{% with messages = get_flashed_messages() %}
-{% if messages %}
-<div class="alert alert-success alert-dismissible search-container">
-    <a href="#" class="close" data-dismiss="alert"
-       aria-label="close">&times;</a>
-    <strong>Success!</strong> {{messages[0]}}.
-</div>
-{% endif %}
-{% endwith %}
+    {% endif %}
+    {% endwith %}
 
-{% with messages = get_flashed_messages(category_filter=["error"]) %}
-{% if messages %}
-<div class="alert alert-danger alert-dismissible search-container">
-    <a href="#" class="close" data-dismiss="alert"
-       aria-label="close">&times;</a>
-    <strong>Error!</strong> {{messages}}.
-</div>
-{% endif %}
-{% endwith %}
+    {% with messages = get_flashed_messages(category_filter=["error"]) %}
+    {% if messages %}
+    <div class="alert alert-danger alert-dismissible search-container">
+        <a href="#" class="close" data-dismiss="alert"
+           aria-label="close">&times;</a>
+        <strong>Error!</strong> {{messages}}.
+    </div>
+    {% endif %}
+    {% endwith %}
 
 
-<div style="padding-top:16px">
-    <table>
-        <tr>
-            <th>Name</th>
-            <th>Address</th>
-            <th>Date</th>
-            <th>Contact</th>
-            <th></th>
-        </tr>
-        #for $data in $data_l
-        <tr>
-            <td><b>$data.CONTACT</b></td>
-            #if $data.ADDRESS
-            <td>
-                #for $add_data in $data.ADDRESS
-                <b>$add_data.type</b> : $add_data.ADDRESS<br>
-                #end for
-            </td>
-            #else
-            <td></td>
-            #end if
-            #if $data.DATE
-            <td>
-                #for $date_data in $data.DATE
-                <b>$date_data.type</b> : $date_data.DATE<br>
-                #end for
-            </td>
-            #else
-            <td></td>
-            #end if
-            #if $data.PHONE
-            <td>
-                #for $ph_data in $data.PHONE
-                <b>$ph_data.type</b> : $ph_data.PHONE<br>
-                #end for
-            </td>
-            #else
-            <td></td>
-            #end if
-            <td>
+    <div style="padding-top:16px">
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Date</th>
+                <th>Contact</th>
+                <th></th>
+            </tr>
+            #for $data in $data_l
+            <tr>
+                <td><b>$data.CONTACT</b></td>
+                #if $data.ADDRESS
+                <td>
+                    #for $add_data in $data.ADDRESS
+                    <b>$add_data.type</b> : $add_data.ADDRESS<br>
+                    #end for
+                </td>
+                #else
+                <td></td>
+                #end if
+                #if $data.DATE
+                <td>
+                    #for $date_data in $data.DATE
+                    <b>$date_data.type</b> : $date_data.DATE<br>
+                    #end for
+                </td>
+                #else
+                <td></td>
+                #end if
+                #if $data.PHONE
+                <td>
+                    #for $ph_data in $data.PHONE
+                    <b>$ph_data.type</b> : $ph_data.PHONE<br>
+                    #end for
+                </td>
+                #else
+                <td></td>
+                #end if
+                <td>
                 <form action="/delete_data.html" method="post">
                     <button type="submit" class="btn btn-default btn-sm"
                             onclick="return confirm('Are you sure you want to delete?');"
@@ -98,19 +98,21 @@
                         <i class="glyphicon glyphicon-trash"></i></button>
                     <input type="hidden" value=$data.ID name="user_id"/>
                 </form>
+                </td>
+                <td>
                 <form action="/update_form.html">
                     <button type="submit" class="btn btn-default btn-sm"><i
                             class="glyphicon glyphicon-pencil"></i></button>
                     <input type="hidden" value=$data.ID name="user_id"/>
-                </form>
-            </td>
-        </tr>
-        #end for
-    </table>
-    #if $data_l == []:
-    <p style="text-align: center; font-size: 20px">No Record Found!!!</p>
-    #end if
-</div>
+                    </form>
+                </td>
+            </tr>
+            #end for
+        </table>
+        #if $data_l == []:
+        <p style="text-align: center; font-size: 20px">No Record Found!!!</p>
+        #end if
+    </div>
 </div>
 </body>
 </html>

@@ -32,7 +32,7 @@ label {
 }
 
 input[type=submit] {
-    background-color: #123456;
+    background-color: #202020;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -43,7 +43,7 @@ input[type=submit] {
 }
 
 input[type=button] {
-    background-color: #123456;
+    background-color: #202020;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -54,7 +54,7 @@ input[type=button] {
 }
 
 input[type=reset] {
-    background-color: #123456;
+    background-color: #202020;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -65,18 +65,18 @@ input[type=reset] {
 }
 
 input[type=submit]:hover {
-    background-color: #123456;
+    background-color: #202020;
 }
 
 .container {
     border-radius: 5px;
-    background-color: #f2f2f2;
+    background-color: #aaaaaa;
     padding: 2px;
 }
 
 .container_sm {
     border-radius: 1px;
-    background-color: #f2f2f2;
+    background-color: #aaaaaa;
     padding: 5px;
 }
 
@@ -113,7 +113,7 @@ input[type=submit]:hover {
 }
 
 .button {
-    background-color: #123456;
+    background-color: #202020;
     border: none;
     color: white;
     text-align: center;
