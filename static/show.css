@@ -1,13 +1,13 @@
 .table {
-    height: 400px;
+    height: 450px;
+    width: 100%;
 }
 
 .table-fixed {
+    display: block;
     max-height: 600px;
     overflow-y: auto;
-    display: inline-grid;
 }
-
 
 * {
     box-sizing: border-box;
@@ -126,4 +126,13 @@ body {
     font-size: 16px;
     border-radius: 10px;
 
+}
+
+.bottom-nav {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #efefef;
+    text-align: center;
 }

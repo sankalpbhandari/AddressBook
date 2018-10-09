@@ -72,6 +72,8 @@ input[type=submit]:hover {
     border-radius: 5px;
     background-color: #aaaaaa;
     padding: 2px;
+    max-height: 500px;
+    overflow-y: auto;
 }
 
 .container_sm {
@@ -127,3 +129,16 @@ input[type=submit]:hover {
     margin-left: 10px;
 }
 
+.topnav {
+    overflow: hidden;
+    background-color: #bbbbbb;
+}
+
+.bottom-nav {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #efefef;
+    text-align: center;
+}
