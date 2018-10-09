@@ -31,7 +31,9 @@
         </div>
         <div class="add-container">
             <form action="contact_form.html">
-                <button type="submit">Add Contact</button>
+                <button type="submit"><i
+                        class="fa fa-plus"></i> Add Contact
+                </button>
             </form>
         </div>
     </div>
@@ -57,7 +59,7 @@
 
 
     <div style="padding-top:16px">
-        <table class="table table-fixed">
+        <table class="table table-responsive table-md table-hover table-fixed">
             <thead class="thead-dark">
             <tr>
                 <th>Name</th>
@@ -67,7 +69,6 @@
                 <th>Actions</th>
             </tr>
             </thead>
-            <tbody>
             #for $data in $data_l
             <tr>
                 <td><b>$data.CONTACT</b></td>
@@ -115,12 +116,20 @@
                 </td>
             </tr>
             #end for
-            </tbody>
         </table>
         #if $data_l == []:
         <p style="text-align: center; font-size: 20px">No Record Found!!!</p>
         #end if
     </div>
+</div>
+<div class="topnav" align="center">
+    <i class="fa fa-github" aria-hidden="true" href="https://github.com/sankalpbhandari/">/sankalpbhandari&nbsp;</i>
+    <i class="fa fa-linkedin" aria-hidden="true" href="https://www.linkedin.com/in/sankalpbhandari/">/sankalpbhandari&nbsp;</i>
+    <i class="fa fa-facebook" aria-hidden="true" href="https://www.facebook.com/sankalp.bhandari">/sankalp.bhandari&nbsp;</i>
+</div>
+<div class="topnav" align="center">
+
+     <i class="fa fa-copyright" aria-hidden="true">2018 Sankalp Bhandari</i>
 </div>
 </body>
 </html>
