@@ -11,7 +11,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link rel="stylesheet"
           href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
- <link rel="stylesheet"
+    <link rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <h2 align="center" style="color: #202020"><b>Update Contact Form</b></h2>
 </head>
@@ -139,6 +139,7 @@
                                placeholder="Zip" maxlength="5" size="5">
                     </div>
                     <div class="row"></div>
+                    <input type="hidden" value=0 name="add_id">
                 </div>
                 #end if
                 <div style="display: none" id="address_div">
@@ -261,6 +262,7 @@
                                    placeholder="Phone Number">
                         </div>
                     </div>
+                    <input type="hidden" value=0 name="ph_id">
                 </div>
                 #end if
                 <div style="display: none" id="phone_div">
@@ -365,6 +367,8 @@
                                    placeholder="DATE">
                         </div>
                     </div>
+                    <input type="hidden" value=0 name="dt_id">
+
                 </div>
                 #end if
                 <div id="date_div" style="display: none">
