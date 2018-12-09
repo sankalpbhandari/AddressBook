@@ -29,7 +29,6 @@ def showtable():
 @app.route("/delete_data.html", methods=["POST"])
 def delete_data():
     delete_id = request.form.get('user_id')
-    print delete_id
     errors, success = data_m_o.delete_record(delete_id)
     if success:
         flash("Successfully deleted Contact")
@@ -75,4 +74,4 @@ if __name__ == '__main__':
         app.config['TEMPLATES_AUTO_RELOAD'] = True
         app.run(host='0.0.0.0', port=8008, debug=False)
     except Exception as e:
-        print e
+        print(e)
